@@ -1,0 +1,203 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Cody James</title>
+        <link>http://localhost:43273/</link>
+        <description>Cody James</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>email@codyjames.dev (Cody James)</managingEditor>
+            <webMaster>email@codyjames.dev (Cody James)</webMaster><lastBuildDate>Tue, 19 May 2020 13:51:28 -0400</lastBuildDate>
+            <atom:link href="http://localhost:43273/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>How I setup Ubuntu fresh install</title>
+    <link>http://localhost:43273/ubuntu-setup/</link>
+    <pubDate>Tue, 19 May 2020 13:51:28 -0400</pubDate>
+    <author></author>
+    <guid>http://localhost:43273/ubuntu-setup/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://forkdrop.io/images/article/ubuntu-banner@0,5x.png" referrerpolicy="no-referrer">
+            </div><h3 id="install-earylyoom-early-out-of-memory-daemon">Install earylyoom (Early Out Of Memory) Daemon</h3>
+<p><a href="https://github.com/rfjakob/earlyoom" target="_blank" rel="noopener noreffer">View on GitHub</a></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">sudo apt install earlyoom <span class="o">&amp;&amp;</span> <span class="se">\
+</span><span class="se"></span>sudo systemctl <span class="nb">enable</span> earlyoom <span class="o">&amp;&amp;</span> <span class="se">\
+</span><span class="se"></span>sudo systemctl start earlyoom
+</code></pre></td></tr></table>
+</div>
+</div><hr>
+<h3 id="install-applications">Install Applications</h3>
+<ul>
+<li><a href="https://www.dropbox.com/install-linux" target="_blank" rel="noopener noreffer">Dropbox (deb)</a></li>
+<li>Visual Studio Code (snap)</li>
+<li>Spotify (snap)</li>
+<li>Mailspring (snap)</li>
+<li><a href="https://www.enpass.io/support/kb/general/how-to-install-enpass-on-linux/" target="_blank" rel="noopener noreffer">Enpass (deb)</a></li>
+<li><a href="https://docs.docker.com/engine/install/" target="_blank" rel="noopener noreffer">Docker (deb)</a></li>
+<li><a href="https://github.com/docker/kitematic/releases" target="_blank" rel="noopener noreffer">Kitematic (deb)</a></li>
+<li><a href="https://www.privateinternetaccess.com/pages/download" target="_blank" rel="noopener noreffer">Private Internet Access (deb)</a></li>
+</ul>
+<hr>
+<h3 id="finish-docker-snap-setup">Finish Docker Snap Setup</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">sudo addgroup --system docker &amp;&amp; \
+sudo adduser $USER docker &amp;&amp; \
+newgrp docker &amp;&amp; \
+sudo snap connect docker:account-control :account-control &amp;&amp; \
+sudo snap connect docker:home :home &amp;&amp; \
+snap disable docker &amp;&amp; \
+snap enable  docker &amp;&amp; \
+newgrp docker-snap
+</code></pre></td></tr></table>
+</div>
+</div><hr>
+<h3 id="setup-dropbox-clipboard-sync">Setup Dropbox clipboard sync</h3>
+<h4 id="install-dependencies">Install dependencies:</h4>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">sudo apt install xclip xdotool notify-osd yad
+</code></pre></td></tr></table>
+</div>
+</div><h4 id="create-keyboard-shortcuts">Create keyboard shortcuts:</h4>
+<p>Create a keyboard shortcut with &ldquo;ctrl+alt+v&rdquo; with command:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">bash <span class="s2">&#34;/home/cody/Dropbox/Bash Scripts/clip&#34;</span> --copy-from
+</code></pre></td></tr></table>
+</div>
+</div><p>Create a keyboard shortcut with &ldquo;ctrl+alt+c&rdquo; with command:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">bash <span class="s2">&#34;/home/cody/Dropbox/Bash Scripts/clip&#34;</span> --copy-to
+</code></pre></td></tr></table>
+</div>
+</div><p>Create a keyboard shortcut with &ldquo;ctrl+alt+b&rdquo; with command:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">bash <span class="s2">&#34;/home/cody/Dropbox/Bash Scripts/clip&#34;</span> --open-in-browser
+</code></pre></td></tr></table>
+</div>
+</div><hr>
+<h3 id="setup-resilio-sync-for-notes-and-whatever-else-i-want">Setup Resilio Sync for notes and whatever else I want</h3>
+<p><a href="https://help.resilio.com/hc/en-us/articles/206178924" target="_blank" rel="noopener noreffer">Download The Deb</a></p>
+<h6 id="then-enable-in-systemd-and-adjust-permissions--groups-for-the-notes-folder">Then enable in Systemd and adjust permissions &amp; groups for the Notes folder:</h6>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">sudo systemctl <span class="nb">enable</span> resilio-sync <span class="o">&amp;&amp;</span> <span class="se">\
+</span><span class="se"></span>sudo usermod -aG cody rslsync <span class="o">&amp;&amp;</span> <span class="se">\
+</span><span class="se"></span>sudo usermod -aG rslsync cody <span class="o">&amp;&amp;</span> <span class="se">\
+</span><span class="se"></span>mkdir /home/cody/Notes <span class="o">&amp;&amp;</span> <span class="se">\
+</span><span class="se"></span>sudo chown -R cody:rslsync /home/cody/Notes <span class="o">&amp;&amp;</span> <span class="se">\
+</span><span class="se"></span>sudo chmod g+rw /home/cody/Notes
+</code></pre></td></tr></table>
+</div>
+</div><h6 id="then-goto-the-web-interface-and-setup-resilio-sync">Then goto the web interface and setup Resilio sync:</h6>
+<p>Remember to logout and back in before finishing setup!!</p>
+<p>Don&rsquo;t forget to unlink the identity first, and link it to the unified identity.</p>
+<p>go to the <a href="http://localhost:8888/gui/" target="_blank" rel="noopener noreffer">Web Gui</a> to set it up</p>
+<hr>
+<h4 id="setup-typora-for-notes">Setup Typora for Notes</h4>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">wget -qO - https://typora.io/linux/public-key.asc <span class="p">|</span> sudo apt-key add - <span class="o">&amp;&amp;</span> <span class="se">\
+</span><span class="se"></span>sudo add-apt-repository <span class="s1">&#39;deb https://typora.io/linux ./&#39;</span> <span class="o">&amp;&amp;</span> <span class="se">\
+</span><span class="se"></span>sudo apt-get update <span class="o">&amp;&amp;</span> <span class="se">\
+</span><span class="se"></span>sudo apt-get install typora -y <span class="o">&amp;&amp;</span> <span class="se">\
+</span><span class="se"></span>cp -a ~/Notes/Themes/. ~/.config/Typora/themes/
+</code></pre></td></tr></table>
+</div>
+</div><h6 id="open-preferences-and">Open preferences and:</h6>
+<ul>
+<li>General
+<ul>
+<li>On Launch: Open custom folder
+<ul>
+<li>/home/cody/Notes</li>
+</ul>
+</li>
+<li>Save &amp; Recover: &ldquo;Auto Save&rdquo; = true</li>
+</ul>
+</li>
+<li>Image
+<ul>
+<li>When Insert&hellip;
+<ul>
+<li>Copy image to custom folder</li>
+<li>/home/cody/Notes/images</li>
+<li>Apply above rules to local images = true</li>
+<li>Apply rules to online images = true</li>
+<li>User relative path if possible = true</li>
+<li>Allow upload &hellip;. = false</li>
+<li>Auto escape &hellip;. = false</li>
+<li>Image uploader = none</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h6 id="last">Last:</h6>
+<p>Select the Ursine Umbra theme from the &ldquo;Themes&rdquo; menu</p>
+<hr>
+<h4 id="setup-the-custom-desktop-files-for-nautilus-and-vs-code">Setup the custom .desktop files for Nautilus and VS Code</h4>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">cp ~/Dropbox/Ubuntu<span class="se">\ </span>Customizations/Custom<span class="se">\ </span>Launcher<span class="se">\ </span>Files ~/.local/share/applications/ 
+</code></pre></td></tr></table>
+</div>
+</div><hr>
+<h4 id="install-sushi">Install Sushi</h4>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">sudo apt install gnome-sushi
+</code></pre></td></tr></table>
+</div>
+</div>]]></description>
+</item></channel>
+</rss>

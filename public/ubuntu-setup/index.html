@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>How I setup Ubuntu fresh install - Cody James</title><meta name="Description" content="This details how I like to setup my Ubuntu desktop, everything I like to install and settings I like to change."><meta property="og:title" content="How I setup Ubuntu fresh install" />
+<meta property="og:description" content="This details how I like to setup my Ubuntu desktop, everything I like to install and settings I like to change." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:43273/ubuntu-setup/" />
+<meta property="article:published_time" content="2020-05-19T13:51:28-04:00" />
+<meta property="article:modified_time" content="2020-05-19T13:51:28-04:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="How I setup Ubuntu fresh install"/>
+<meta name="twitter:description" content="This details how I like to setup my Ubuntu desktop, everything I like to install and settings I like to change."/>
+<meta name="application-name" content="Cody James">
+<meta name="apple-mobile-web-app-title" content="Cody James"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://localhost:43273/ubuntu-setup/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "How I setup Ubuntu fresh install",
+        "inLanguage": "en-us",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/localhost:43273\/ubuntu-setup\/"
+        },"genre": "posts","wordcount":  408 ,
+        "url": "http:\/\/localhost:43273\/ubuntu-setup\/","datePublished": "2020-05-19T13:51:28-04:00","dateModified": "2020-05-19T13:51:28-04:00","author": {
+                "@type": "Person",
+                "name": "Cody James"
+            },"description": "This details how I like to setup my Ubuntu desktop, everything I like to install and settings I like to change."
+    }
+    </script></head>
+    <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('dark' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'dark' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Cody James"><img
+        class="lazyload logo"
+        src="/svg/loading/small.min.svg"
+        data-src="https://themes.gohugo.io//theme/LoveIt/images/avatar.png"
+        data-srcset="https://themes.gohugo.io//theme/LoveIt/images/avatar.png, https://themes.gohugo.io//theme/LoveIt/images/avatar.png 1.5x, https://themes.gohugo.io//theme/LoveIt/images/avatar.png 2x"
+        data-sizes="auto"
+        alt="Cody James"
+        title="Cody James" /><span id="id-1" class="typeit"></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/about/" title="About Me"> About </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="" id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Cody James"><img
+        class="lazyload logo"
+        src="/svg/loading/small.min.svg"
+        data-src="https://themes.gohugo.io//theme/LoveIt/images/avatar.png"
+        data-srcset="https://themes.gohugo.io//theme/LoveIt/images/avatar.png, https://themes.gohugo.io//theme/LoveIt/images/avatar.png 1.5x, https://themes.gohugo.io//theme/LoveIt/images/avatar.png 2x"
+        data-sizes="auto"
+        alt="Cody James"
+        title="Cody James" /><span id="id-2" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="" id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/about/" title="About Me">About</a><a href="javascript:void(0);" class="menu-item theme-switch" title="">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title"></h2>
+            <div class="toc-content always-active" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animated flipInX">How I setup Ubuntu fresh install</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://codyjames.dev/about" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>Cody James</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020-05-19">2020-05-19</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;&nbsp;</div>
+        </div><div class="featured-image"><img
+        class="lazyload"
+        src="/svg/loading/normal.min.svg"
+        data-src="https://forkdrop.io/images/article/ubuntu-banner@0,5x.png"
+        data-srcset="https://forkdrop.io/images/article/ubuntu-banner@0,5x.png, https://forkdrop.io/images/article/ubuntu-banner@0,5x.png 1.5x, https://forkdrop.io/images/article/ubuntu-banner@0,5x.png 2x"
+        data-sizes="auto"
+        alt="This details how I like to setup my Ubuntu desktop, everything I like to install and settings I like to change."
+        title="This details how I like to setup my Ubuntu desktop, everything I like to install and settings I like to change." /></div><div class="details toc" id="toc-static"  kept="">
+                <div class="details-summary toc-title">
+                    <span></span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#install-earylyoom-early-out-of-memory-daemon">Install earylyoom (Early Out Of Memory) Daemon</a></li>
+        <li><a href="#install-applications">Install Applications</a></li>
+        <li><a href="#finish-docker-snap-setup">Finish Docker Snap Setup</a></li>
+        <li><a href="#setup-dropbox-clipboard-sync">Setup Dropbox clipboard sync</a>
+          <ul>
+            <li><a href="#install-dependencies">Install dependencies:</a></li>
+            <li><a href="#create-keyboard-shortcuts">Create keyboard shortcuts:</a></li>
+          </ul>
+        </li>
+        <li><a href="#setup-resilio-sync-for-notes-and-whatever-else-i-want">Setup Resilio Sync for notes and whatever else I want</a>
+          <ul>
+            <li>
+              <ul>
+                <li>
+                  <ul>
+                    <li><a href="#then-enable-in-systemd-and-adjust-permissions--groups-for-the-notes-folder">Then enable in Systemd and adjust permissions &amp; groups for the Notes folder:</a></li>
+                    <li><a href="#then-goto-the-web-interface-and-setup-resilio-sync">Then goto the web interface and setup Resilio sync:</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#setup-typora-for-notes">Setup Typora for Notes</a>
+              <ul>
+                <li>
+                  <ul>
+                    <li><a href="#open-preferences-and">Open preferences and:</a></li>
+                    <li><a href="#last">Last:</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#setup-the-custom-desktop-files-for-nautilus-and-vs-code">Setup the custom .desktop files for Nautilus and VS Code</a></li>
+            <li><a href="#install-sushi">Install Sushi</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h3 id="install-earylyoom-early-out-of-memory-daemon">Install earylyoom (Early Out Of Memory) Daemon</h3>
+<p><a href="https://github.com/rfjakob/earlyoom" target="_blank" rel="noopener noreffer">View on GitHub</a></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">sudo apt install earlyoom <span class="o">&amp;&amp;</span> <span class="se">\
+</span><span class="se"></span>sudo systemctl <span class="nb">enable</span> earlyoom <span class="o">&amp;&amp;</span> <span class="se">\
+</span><span class="se"></span>sudo systemctl start earlyoom
+</code></pre></td></tr></table>
+</div>
+</div><hr>
+<h3 id="install-applications">Install Applications</h3>
+<ul>
+<li><a href="https://www.dropbox.com/install-linux" target="_blank" rel="noopener noreffer">Dropbox (deb)</a></li>
+<li>Visual Studio Code (snap)</li>
+<li>Spotify (snap)</li>
+<li>Mailspring (snap)</li>
+<li><a href="https://www.enpass.io/support/kb/general/how-to-install-enpass-on-linux/" target="_blank" rel="noopener noreffer">Enpass (deb)</a></li>
+<li><a href="https://docs.docker.com/engine/install/" target="_blank" rel="noopener noreffer">Docker (deb)</a></li>
+<li><a href="https://github.com/docker/kitematic/releases" target="_blank" rel="noopener noreffer">Kitematic (deb)</a></li>
+<li><a href="https://www.privateinternetaccess.com/pages/download" target="_blank" rel="noopener noreffer">Private Internet Access (deb)</a></li>
+</ul>
+<hr>
+<h3 id="finish-docker-snap-setup">Finish Docker Snap Setup</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">sudo addgroup --system docker &amp;&amp; \
+sudo adduser $USER docker &amp;&amp; \
+newgrp docker &amp;&amp; \
+sudo snap connect docker:account-control :account-control &amp;&amp; \
+sudo snap connect docker:home :home &amp;&amp; \
+snap disable docker &amp;&amp; \
+snap enable  docker &amp;&amp; \
+newgrp docker-snap
+</code></pre></td></tr></table>
+</div>
+</div><hr>
+<h3 id="setup-dropbox-clipboard-sync">Setup Dropbox clipboard sync</h3>
+<h4 id="install-dependencies">Install dependencies:</h4>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">sudo apt install xclip xdotool notify-osd yad
+</code></pre></td></tr></table>
+</div>
+</div><h4 id="create-keyboard-shortcuts">Create keyboard shortcuts:</h4>
+<p>Create a keyboard shortcut with &ldquo;ctrl+alt+v&rdquo; with command:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">bash <span class="s2">&#34;/home/cody/Dropbox/Bash Scripts/clip&#34;</span> --copy-from
+</code></pre></td></tr></table>
+</div>
+</div><p>Create a keyboard shortcut with &ldquo;ctrl+alt+c&rdquo; with command:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">bash <span class="s2">&#34;/home/cody/Dropbox/Bash Scripts/clip&#34;</span> --copy-to
+</code></pre></td></tr></table>
+</div>
+</div><p>Create a keyboard shortcut with &ldquo;ctrl+alt+b&rdquo; with command:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">bash <span class="s2">&#34;/home/cody/Dropbox/Bash Scripts/clip&#34;</span> --open-in-browser
+</code></pre></td></tr></table>
+</div>
+</div><hr>
+<h3 id="setup-resilio-sync-for-notes-and-whatever-else-i-want">Setup Resilio Sync for notes and whatever else I want</h3>
+<p><a href="https://help.resilio.com/hc/en-us/articles/206178924" target="_blank" rel="noopener noreffer">Download The Deb</a></p>
+<h6 id="then-enable-in-systemd-and-adjust-permissions--groups-for-the-notes-folder">Then enable in Systemd and adjust permissions &amp; groups for the Notes folder:</h6>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">sudo systemctl <span class="nb">enable</span> resilio-sync <span class="o">&amp;&amp;</span> <span class="se">\
+</span><span class="se"></span>sudo usermod -aG cody rslsync <span class="o">&amp;&amp;</span> <span class="se">\
+</span><span class="se"></span>sudo usermod -aG rslsync cody <span class="o">&amp;&amp;</span> <span class="se">\
+</span><span class="se"></span>mkdir /home/cody/Notes <span class="o">&amp;&amp;</span> <span class="se">\
+</span><span class="se"></span>sudo chown -R cody:rslsync /home/cody/Notes <span class="o">&amp;&amp;</span> <span class="se">\
+</span><span class="se"></span>sudo chmod g+rw /home/cody/Notes
+</code></pre></td></tr></table>
+</div>
+</div><h6 id="then-goto-the-web-interface-and-setup-resilio-sync">Then goto the web interface and setup Resilio sync:</h6>
+<p>Remember to logout and back in before finishing setup!!</p>
+<p>Don&rsquo;t forget to unlink the identity first, and link it to the unified identity.</p>
+<p>go to the <a href="http://localhost:8888/gui/" target="_blank" rel="noopener noreffer">Web Gui</a> to set it up</p>
+<hr>
+<h4 id="setup-typora-for-notes">Setup Typora for Notes</h4>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">wget -qO - https://typora.io/linux/public-key.asc <span class="p">|</span> sudo apt-key add - <span class="o">&amp;&amp;</span> <span class="se">\
+</span><span class="se"></span>sudo add-apt-repository <span class="s1">&#39;deb https://typora.io/linux ./&#39;</span> <span class="o">&amp;&amp;</span> <span class="se">\
+</span><span class="se"></span>sudo apt-get update <span class="o">&amp;&amp;</span> <span class="se">\
+</span><span class="se"></span>sudo apt-get install typora -y <span class="o">&amp;&amp;</span> <span class="se">\
+</span><span class="se"></span>cp -a ~/Notes/Themes/. ~/.config/Typora/themes/
+</code></pre></td></tr></table>
+</div>
+</div><h6 id="open-preferences-and">Open preferences and:</h6>
+<ul>
+<li>General
+<ul>
+<li>On Launch: Open custom folder
+<ul>
+<li>/home/cody/Notes</li>
+</ul>
+</li>
+<li>Save &amp; Recover: &ldquo;Auto Save&rdquo; = true</li>
+</ul>
+</li>
+<li>Image
+<ul>
+<li>When Insert&hellip;
+<ul>
+<li>Copy image to custom folder</li>
+<li>/home/cody/Notes/images</li>
+<li>Apply above rules to local images = true</li>
+<li>Apply rules to online images = true</li>
+<li>User relative path if possible = true</li>
+<li>Allow upload &hellip;. = false</li>
+<li>Auto escape &hellip;. = false</li>
+<li>Image uploader = none</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h6 id="last">Last:</h6>
+<p>Select the Ursine Umbra theme from the &ldquo;Themes&rdquo; menu</p>
+<hr>
+<h4 id="setup-the-custom-desktop-files-for-nautilus-and-vs-code">Setup the custom .desktop files for Nautilus and VS Code</h4>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">cp ~/Dropbox/Ubuntu<span class="se">\ </span>Customizations/Custom<span class="se">\ </span>Launcher<span class="se">\ </span>Files ~/.local/share/applications/ 
+</code></pre></td></tr></table>
+</div>
+</div><hr>
+<h4 id="install-sushi">Install Sushi</h4>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">sudo apt install gnome-sushi
+</code></pre></td></tr></table>
+</div>
+</div></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span></span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/ubuntu-setup/index.md" target="_blank"></a>
+                        </span></div>
+            <div class="post-info-share">
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();"></a></span>&nbsp;|&nbsp;<span><a href="/"></a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2020</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://codyjames.dev/about" target="_blank">Cody James</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><style>.lg-toolbar .lg-icon::after { color: #999; }</style><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/typeit/typeit.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"","maxShownLines":10},"comment":{},"data":{"id-1":"Cody James","id-2":"Cody James"},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":20,"noResultsFound":"","snippetLength":40,"type":"lunr"},"typeit":{"cursorChar":null,"cursorSpeed":null,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":null,"speed":null}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

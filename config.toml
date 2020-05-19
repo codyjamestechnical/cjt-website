@@ -1,4 +1,4 @@
-baseURL = "http://localhost:43273"
+baseURL = "https://codyjames.dev"
 # [en, zh-cn, fr, ...] determines default content language
 defaultContentLanguage = "en-us"
 # language code
