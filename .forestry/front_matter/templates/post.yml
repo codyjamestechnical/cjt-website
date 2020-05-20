@@ -2,18 +2,25 @@
 label: Post
 hide_body: false
 fields:
-- type: number
-  name: weight
-  label: weight
 - type: text
   name: title
-  label: title
+  label: Title
+  config:
+    required: true
+    max: 100
 - type: datetime
   name: date
-  label: date
+  default: now
+  config:
+    required: true
+  label: Date Published
+  hidden: true
 - type: datetime
   name: lastmod
   label: lastmod
+  default: now
+  config:
+    required: true
 - type: text
   name: author
   label: author
@@ -23,18 +30,21 @@ fields:
 - type: text
   name: description
   label: description
-- type: image_gallery
-  name: images
-  label: images
 - type: list
   name: tags
-  label: tags
+  label: Tags
+  config:
+    use_select: false
 - type: list
   name: categories
-  label: categories
+  label: Categories
 - type: file
   name: featuredImage
-  label: featuredImage
+  label: Header Image
 - type: boolean
   name: lightgallery
   label: lightgallery
+- name: draft
+  type: boolean
+  label: Draft
+  default: true
