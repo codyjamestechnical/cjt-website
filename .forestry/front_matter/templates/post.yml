@@ -12,6 +12,12 @@ fields:
   config:
     required: true
     max: 100
+- name: subtitle
+  type: text
+  config:
+    required: false
+    max: 100
+  label: Subtitle
 - type: text
   name: description
   label: Description
@@ -45,6 +51,10 @@ fields:
 - type: boolean
   name: lightgallery
   label: Use Light Gallery
+  default: false
+- name: hiddenFromHomePage
+  type: boolean
+  label: Hide From Homepage
   default: false
 pages:
 - content/posts/forestry-test.md
