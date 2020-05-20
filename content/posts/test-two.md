@@ -2,8 +2,7 @@
 title: test two
 date: 2020-05-20T04:14:59.752Z
 draft: true
-tags:
-  - news test
+tags: '["hello","world"]'
 hiddenFromHomePage: false
 toc: false
 ---
