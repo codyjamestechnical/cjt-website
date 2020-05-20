@@ -1,0 +1,24 @@
+backend:
+  name: git-gateway
+  branch: master
+
+publish_mode: editorial_workflow
+media_folder: "static/images"
+collections:
+  - name: "posts"
+    label: "Posts"
+    folder: "content/posts"
+    create: true
+    slug: "{{slug}}"
+    fields: 
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Draft", name: "draft", widget: "boolean"}
+      - {label: "SubTitle", name: "subtitle", widget: "string"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Tags", name: "tags", widget: "string"}
+      - {label: "Featured Image", name: "featuredImage", widget: "image"}
+      - {label: "Hidden From Home Page", name: "hiddenFromHomePage", widget: "boolean"}
+      - {label: "Show Table Of Contents", name: "toc", widget: "boolean"}
+      - {label: "Categories", name: "categories", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
