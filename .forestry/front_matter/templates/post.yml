@@ -43,3 +43,5 @@ fields:
   name: lightgallery
   label: Use Light Gallery
   default: false
+pages:
+- content/posts/forestry-test.md
