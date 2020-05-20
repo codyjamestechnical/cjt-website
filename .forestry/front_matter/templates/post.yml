@@ -32,12 +32,16 @@ fields:
   type: tag_list
   default: []
   label: Tags
-- type: list
-  name: categories
+- name: categories
+  type: tag_list
+  default: []
   label: Categories
 - type: file
   name: featuredImage
   label: Header Image
+- name: toc
+  type: boolean
+  label: Show Table of Contents
 - type: boolean
   name: lightgallery
   label: Use Light Gallery
