@@ -3,9 +3,11 @@ title:  How I setup Ubuntu fresh install
 date: 2020-05-19T13:51:28-04:00
 description: This details how I like to setup my Ubuntu desktop, everything I like to install and settings I like to change.
 featuredImage: "https://forkdrop.io/images/article/ubuntu-banner@0,5x.png"
-toc:
-  enable: true
+toc: true
 linkToMarkdown: true
+tags = ["My New Tag"]
+categories = []
+lastmod = 2020-05-20T20:30:12Z
 ---
 <!--more-->
 
