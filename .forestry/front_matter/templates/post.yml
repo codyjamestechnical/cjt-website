@@ -2,12 +2,19 @@
 label: Post
 hide_body: false
 fields:
+- name: draft
+  type: boolean
+  label: Draft
+  default: true
 - type: text
   name: title
   label: Title
   config:
     required: true
     max: 100
+- type: text
+  name: description
+  label: Description
 - type: datetime
   name: date
   default: now
@@ -21,9 +28,6 @@ fields:
   default: now
   config:
     required: true
-- type: text
-  name: description
-  label: Description
 - type: list
   name: tags
   label: Tags
@@ -39,7 +43,3 @@ fields:
   name: lightgallery
   label: Use Light Gallery
   default: false
-- name: draft
-  type: boolean
-  label: Draft
-  default: true
