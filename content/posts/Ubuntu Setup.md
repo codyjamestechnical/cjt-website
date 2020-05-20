@@ -5,9 +5,9 @@ description: This details how I like to setup my Ubuntu desktop, everything I li
 featuredImage: "https://forkdrop.io/images/article/ubuntu-banner@0,5x.png"
 toc: true
 linkToMarkdown: true
-tags = ["My New Tag"]
-categories = []
-lastmod = 2020-05-20T20:30:12Z
+tags: ["My New Tag"]
+categories: = []
+lastmod: 2020-05-20T20:30:12Z
 ---
 <!--more-->
 
