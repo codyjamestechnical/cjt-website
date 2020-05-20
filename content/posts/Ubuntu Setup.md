@@ -1,13 +1,16 @@
 ---
-title:  How I setup Ubuntu fresh install
-date: 2020-05-19T13:51:28-04:00
-description: This details how I like to setup my Ubuntu desktop, everything I like to install and settings I like to change.
-featuredImage: "https://forkdrop.io/images/article/ubuntu-banner@0,5x.png"
+title: How I setup Ubuntu fresh install
+date: 2020-05-19T17:51:28.000+00:00
+description: This details how I like to setup my Ubuntu desktop, everything I like
+  to install and settings I like to change.
+featuredImage: https://forkdrop.io/images/article/ubuntu-banner@0,5x.png
 toc: true
 linkToMarkdown: true
-tags: ["My New Tag"]
-categories: = []
-lastmod: 2020-05-20T20:30:12Z
+tags:
+- My New Tag
+categories: []
+lastmod: 2020-05-20T20:30:12.000+00:00
+
 ---
 <!--more-->
 
@@ -158,4 +161,3 @@ cp ~/Dropbox/Ubuntu\ Customizations/Custom\ Launcher\ Files ~/.local/share/appli
 ```shell
 sudo apt install gnome-sushi
 ```
-
