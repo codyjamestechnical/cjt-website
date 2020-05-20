@@ -17,19 +17,13 @@ fields:
   hidden: true
 - type: datetime
   name: lastmod
-  label: lastmod
+  label: Last Modified
   default: now
   config:
     required: true
 - type: text
-  name: author
-  label: author
-- type: text
-  name: authorLink
-  label: authorLink
-- type: text
   name: description
-  label: description
+  label: Description
 - type: list
   name: tags
   label: Tags
@@ -43,7 +37,8 @@ fields:
   label: Header Image
 - type: boolean
   name: lightgallery
-  label: lightgallery
+  label: Use Light Gallery
+  default: false
 - name: draft
   type: boolean
   label: Draft
