@@ -60,7 +60,7 @@ sudo systemctl start earlyoom
 
 #### Install dependencies:
 
-```bash
+```shell
 sudo apt install xclip xdotool notify-osd yad
 ```
 
@@ -68,13 +68,13 @@ sudo apt install xclip xdotool notify-osd yad
 
 Create a keyboard shortcut with "ctrl+alt+v" with command:
 
-```bash
+```shell
 bash "/home/cody/Dropbox/Bash Scripts/clip" --copy-from
 ```
 
 Create a keyboard shortcut with "ctrl+alt+c" with command:
 
-```bash
+```shell
 bash "/home/cody/Dropbox/Bash Scripts/clip" --copy-to
 ```
 
