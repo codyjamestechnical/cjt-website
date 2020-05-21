@@ -3,7 +3,7 @@ title: How I setup Ubuntu fresh install
 date: 2020-05-19T17:51:28.000+00:00
 description: This details how I like to setup my Ubuntu desktop, everything I like
   to install and settings I like to change.
-featuredImage: ''
+featuredImage: "/images/optimized-ubuntu-banner.png"
 toc: true
 linkToMarkdown: true
 tags:
