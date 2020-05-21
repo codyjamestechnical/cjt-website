@@ -7,8 +7,11 @@ featuredImage: https://forkdrop.io/images/article/ubuntu-banner@0,5x.png
 toc: true
 linkToMarkdown: true
 tags:
-- My New Tag
-categories: []
+- Linux
+- Tips & Tricks
+- How To
+categories:
+- Linux
 lastmod: 2020-05-20T20:30:12.000+00:00
 
 ---
