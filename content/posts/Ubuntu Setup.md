@@ -14,6 +14,8 @@ lastmod: 2020-05-20T20:30:12.000+00:00
 ---
 <!--more-->
 
+{{< admonition type=info title="Download Referenced Files" open=true >}} [Click here to download the files referenced in this article from my Dropbox ](https://www.dropbox.com/sh/11olmidp2oyvjz4/AACtmBchqIfxx9MhAjlErJawa?dl=0){{< /admonition >}}
+
 ### Install earylyoom (Early Out Of Memory) Daemon
 
 [View on GitHub](https://github.com/rfjakob/earlyoom)
@@ -24,7 +26,7 @@ sudo systemctl enable earlyoom && \
 sudo systemctl start earlyoom
 ```
 
----
+***
 
 ### Install Applications
 
@@ -37,26 +39,26 @@ sudo systemctl start earlyoom
 * [Kitematic (deb)](https://github.com/docker/kitematic/releases)
 * [Private Internet Access (deb)](https://www.privateinternetaccess.com/pages/download)
 
+***
 
+### Link to Files on Dropbox
 
----
+Go [here](https://www.dropbox.com/sh/11olmidp2oyvjz4/AACtmBchqIfxx9MhAjlErJawa?dl=0) to download the referenced files on Dropbox.
+
+***
 
 ### Finish Docker Snap Setup
 
-```
-sudo addgroup --system docker && \
-sudo adduser $USER docker && \
-newgrp docker && \
-sudo snap connect docker:account-control :account-control && \
-sudo snap connect docker:home :home && \
-snap disable docker && \
-snap enable  docker && \
-newgrp docker-snap
-```
+    sudo addgroup --system docker && \
+    sudo adduser $USER docker && \
+    newgrp docker && \
+    sudo snap connect docker:account-control :account-control && \
+    sudo snap connect docker:home :home && \
+    snap disable docker && \
+    snap enable  docker && \
+    newgrp docker-snap
 
-
-
----
+***
 
 ### Setup Dropbox clipboard sync
 
@@ -86,9 +88,7 @@ Create a keyboard shortcut with "ctrl+alt+b" with command:
 bash "/home/cody/Dropbox/Bash Scripts/clip" --open-in-browser
 ```
 
-
-
----
+***
 
 ### Setup Resilio Sync for notes and whatever else I want
 
@@ -113,7 +113,7 @@ Don't forget to unlink the identity first, and link it to the unified identity.
 
 go to the [Web Gui](http://localhost:8888/gui/) to set it up
 
----
+***
 
 #### Setup Typora for Notes
 
@@ -142,11 +142,11 @@ cp -a ~/Notes/Themes/. ~/.config/Typora/themes/
     * Auto escape .... = false
     * Image uploader = none
 
-###### Last: 
+###### Last:
 
 Select the Ursine Umbra theme from the "Themes" menu
 
----
+***
 
 #### Setup the custom .desktop files for Nautilus and VS Code
 
@@ -154,7 +154,7 @@ Select the Ursine Umbra theme from the "Themes" menu
 cp ~/Dropbox/Ubuntu\ Customizations/Custom\ Launcher\ Files ~/.local/share/applications/ 
 ```
 
----
+***
 
 #### Install Sushi
 
