@@ -13,9 +13,8 @@ title: Forestry Test
 toc: false
 
 ---
-
 # Wow, it's a test post!
 
 [test](/images/2020-05-07-17-00-51.pdf)
 
-{{< admonition type=<<danger>> title="Scratching Ass" open=true >}} Scratching your ass can lead to stinky fingers! {{< /admonition >}}
+{{< admonition type=danger title="Scratching Ass" open=true >}} Scratching your ass can lead to stinky fingers! {{< /admonition >}}
