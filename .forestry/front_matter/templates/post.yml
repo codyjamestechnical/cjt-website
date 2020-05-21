@@ -57,3 +57,5 @@ fields:
   type: boolean
   label: Hide From Homepage
   default: false
+pages:
+- content/posts/finder-tips-extensions.md
