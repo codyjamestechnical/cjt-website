@@ -41,12 +41,6 @@ sudo systemctl start earlyoom
 
 ***
 
-### Link to Files on Dropbox
-
-Go [here](https://www.dropbox.com/sh/11olmidp2oyvjz4/AACtmBchqIfxx9MhAjlErJawa?dl=0) to download the referenced files on Dropbox.
-
-***
-
 ### Finish Docker Snap Setup
 
     sudo addgroup --system docker && \
