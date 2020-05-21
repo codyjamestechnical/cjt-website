@@ -21,7 +21,7 @@ lastmod: 2020-05-20T20:30:12.000+00:00
 
 ### Install earylyoom (Early Out Of Memory) Daemon
 
-[View earlyoom on GitHub :(fab fa-github):](https://github.com/rfjakob/earlyoom)
+[View Earlyoom on GitHub :(fab fa-github):](https://github.com/rfjakob/earlyoom)
 
 ```shell
 sudo apt install earlyoom && \
