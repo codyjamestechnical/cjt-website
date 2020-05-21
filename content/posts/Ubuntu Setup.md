@@ -23,8 +23,6 @@ lastmod: 2020-05-20T20:30:12.000+00:00
 
 [View earlyoom on GitHub :(fab fa-github):](https://github.com/rfjakob/earlyoom)
 
- 
-
 ```shell
 sudo apt install earlyoom && \
 sudo systemctl enable earlyoom && \
@@ -47,6 +45,7 @@ sudo systemctl start earlyoom
 ***
 
 ### Finish Docker Snap Setup
+
 ```shell
     sudo addgroup --system docker && \
     sudo adduser $USER docker && \
@@ -57,6 +56,7 @@ sudo systemctl start earlyoom
     snap enable  docker && \
     newgrp docker-snap
 ```
+
 ***
 
 ### Setup Dropbox clipboard sync
@@ -143,9 +143,11 @@ sudo apt-get install typora -y && \
 ###### Select the theme:
 
 Close Typora and type this in the Terminal.
+
 ```shell
 cp -a ~/Notes/Themes/. ~/.config/Typora/themes/
 ```
+
 Open Typora
 
 Select the Ursine Umbra theme from the "Themes" menu.
@@ -161,6 +163,10 @@ cp ~/Dropbox/Ubuntu\ Customizations/Custom\ Launcher\ Files ~/.local/share/appli
 ***
 
 #### Install Sushi
+
+[View Sushi on GitHub :(fab fa-github):](:(fab fa-github):)
+
+Sushi is a quick preview app for Nautilus. Similar to the quick preview in Mac OS.
 
 ```shell
 sudo apt install gnome-sushi
