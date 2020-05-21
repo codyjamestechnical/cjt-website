@@ -57,5 +57,3 @@ fields:
   type: boolean
   label: Hide From Homepage
   default: false
-pages:
-- content/posts/forestry-test.md
