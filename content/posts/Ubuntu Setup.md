@@ -164,7 +164,7 @@ cp ~/Dropbox/Ubuntu\ Customizations/Custom\ Launcher\ Files ~/.local/share/appli
 
 #### Install Sushi
 
-[View Sushi on GitHub :(fab fa-github):](:(fab fa-github):)
+[View Sushi on GitHub :(fab fa-github):](https://github.com/GNOME/sushi)
 
 Sushi is a quick preview app for Nautilus. Similar to the quick preview in Mac OS.
 
