@@ -118,7 +118,6 @@ wget -qO - https://typora.io/linux/public-key.asc | sudo apt-key add - && \
 sudo add-apt-repository 'deb https://typora.io/linux ./' && \
 sudo apt-get update && \
 sudo apt-get install typora -y && \
-cp -a ~/Notes/Themes/. ~/.config/Typora/themes/
 ```
 
 ###### Open preferences and:
@@ -138,9 +137,15 @@ cp -a ~/Notes/Themes/. ~/.config/Typora/themes/
     * Auto escape .... = false
     * Image uploader = none
 
-###### Last:
+###### Select the theme:
 
-Select the Ursine Umbra theme from the "Themes" menu
+Close Typora and type this in the Terminal.
+```shell
+cp -a ~/Notes/Themes/. ~/.config/Typora/themes/
+```
+Open Typora
+
+Select the Ursine Umbra theme from the "Themes" menu.
 
 ***
 
