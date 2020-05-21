@@ -44,7 +44,7 @@ sudo systemctl start earlyoom
 ***
 
 ### Finish Docker Snap Setup
-
+```shell
     sudo addgroup --system docker && \
     sudo adduser $USER docker && \
     newgrp docker && \
@@ -53,7 +53,7 @@ sudo systemctl start earlyoom
     snap disable docker && \
     snap enable  docker && \
     newgrp docker-snap
-
+```
 ***
 
 ### Setup Dropbox clipboard sync
