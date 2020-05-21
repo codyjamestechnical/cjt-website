@@ -21,7 +21,7 @@ lastmod: 2020-05-20T20:30:12.000+00:00
 
 ### Install earylyoom (Early Out Of Memory) Daemon
 
-[View Earlyoom on GitHub :(fab fa-github):](https://github.com/rfjakob/earlyoom)
+[View on :(fab fa-github): GitHub](https://github.com/rfjakob/earlyoom)
 
 ```shell
 sudo apt install earlyoom && \
@@ -164,7 +164,7 @@ cp ~/Dropbox/Ubuntu\ Customizations/Custom\ Launcher\ Files ~/.local/share/appli
 
 #### Install Sushi
 
-[View Sushi on GitHub :(fab fa-github):](https://github.com/GNOME/sushi)
+[View on  :(fab fa-github): GitHub](https://github.com/GNOME/sushi)
 
 Sushi is a quick preview app for Nautilus. Similar to the quick preview in Mac OS.
 
