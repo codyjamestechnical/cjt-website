@@ -18,4 +18,4 @@ toc = true
 
 Temporary files such as app downloads, receipts, and screenshots have a way of multiplying in number super fast. Yes, you need to keep them for a while, but they often get in the way. Mark such future junk files with a *temp* (“temporary”) tag.
 
-{{< image src="/images/<<IMAGE>>" caption="<<CAPTION>>" src-s="/images/<<SMALL IMAGE>>" src-l="/images/<<LARGE IMAGE>>" linked=true  >}}
+{{< image src="/images/finder-temporary-tag-670x340.jpg" caption="" src-s="/images/<<SMALL IMAGE>>" src-l="/images/finder-temporary-tag-670x340.jpg" linked=false  >}}
