@@ -14,19 +14,19 @@ toc = true
 +++
 <!--more-->
 
-## Highlight Temporary Data
+### Highlight Temporary Data
 
 Temporary files such as app downloads, receipts, and screenshots have a way of multiplying in number super fast. Yes, you need to keep them for a while, but they often get in the way. Mark such future junk files with a *temp* (“temporary”) tag.
 
 {{< image src="/images/finder-temporary-tag-670x340.jpg" caption="" src-s="/images/<<SMALL IMAGE>>" src-l="/images/finder-temporary-tag-670x340.jpg" linked=false  >}}
 
-## Highlight Task-Related Data
+### Highlight Task-Related Data
 
 Setup an "_Action_" tag for files that need relatively quick action. Like renaming, sharing, organizing, and the like.
 
-## Install Quick Look Extensions
+### Install Quick Look Extensions
 
-### Markdown Preview
+#### Markdown Preview
 
 Install [QLMarkdown](https://github.com/toland/qlmarkdown) extension:
   ```shell
@@ -36,4 +36,3 @@ Install [QLMarkdown](https://github.com/toland/qlmarkdown) extension:
   ```shell
   defaults write com.apple.finder QLEnableTextSelection -bool TRUE; killall Finder
   ```
-  
