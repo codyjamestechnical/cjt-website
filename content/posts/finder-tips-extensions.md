@@ -12,3 +12,10 @@ title = "Finder Tips & Extensions"
 toc = true
 
 +++
+ <!--more-->
+
+## Highlight Temporary Data
+
+Temporary files such as app downloads, receipts, and screenshots have a way of multiplying in number super fast. Yes, you need to keep them for a while, but they often get in the way. Mark such future junk files with a *temp* (“temporary”) tag.
+
+{{< image src="/images/<<IMAGE>>" caption="<<CAPTION>>" src-s="/images/<<SMALL IMAGE>>" src-l="/images/<<LARGE IMAGE>>" linked=true  >}}
