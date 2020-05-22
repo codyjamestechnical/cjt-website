@@ -59,3 +59,4 @@ fields:
   default: false
 pages:
 - content/posts/finder-tips-extensions.md
+- content/posts/wemos-d1-mini-specs.md
