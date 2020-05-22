@@ -25,7 +25,7 @@ toc = true
 
 ### Technical Specs
 
-| --- | --- | 
+| - - - - - - - - | - - - - - - - - - - - | 
 
 | Microcontroller | ESP-8266EX |
 
