@@ -37,3 +37,5 @@ toc = true
 | Weight | 10g |
 
 ### Board Components
+
+{{< image src="/images/0pk6omqubw02rzyb-d1_mini_lite_layout.png" caption="D1 Mini Board Component Layout"  src-l="/images/0pk6omqubw02rzyb-d1_mini_lite_layout.png" linked=false  >}}
