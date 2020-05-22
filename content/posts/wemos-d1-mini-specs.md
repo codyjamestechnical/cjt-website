@@ -45,6 +45,16 @@ toc = true
 
 | Weight | 10g |
 
+| Option | Description |
+
+| ------ | ----------- |
+
+| data   | path to data files to supply the data that will be passed into templates. |
+
+| engine | engine to be used for processing templates. Handlebars is the default. |
+
+| ext    | extension to be used for dest files. |
+
 ### Board Components
 
 {{< image src="/images/0pk6omqubw02rzyb-d1_mini_lite_layout.png" caption="D1 Mini Board Component Layout"  src-l="/images/0pk6omqubw02rzyb-d1_mini_lite_layout.png" linked=false  >}}
