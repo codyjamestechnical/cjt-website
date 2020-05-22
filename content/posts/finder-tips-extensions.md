@@ -36,3 +36,13 @@ Install [QLMarkdown](https://github.com/toland/qlmarkdown) extension:
   ```shell
   defaults write com.apple.finder QLEnableTextSelection -bool TRUE; killall Finder
   ```
+  #### Video Thumbnail Preview
+  [QLVideo](https://github.com/Marginal/QLVideo) adds support for more video types.
+  ```shell
+  brew cask install qlvideo
+  ```
+  #### Add Support for More Text Files
+  [QLStephen](https://github.com/whomwah/qlstephen) will allow quick look to show more file types.
+  ```shell
+  brew cask install qlstephen
+  ```
