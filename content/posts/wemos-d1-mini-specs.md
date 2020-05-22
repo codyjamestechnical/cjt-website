@@ -25,25 +25,25 @@ toc = true
 
 ### Technical Specs
 
-| - - - - - - - - | - - - - - - - - - - - | 
+\- - - - - - - - | - - - - - - - - - - - 
 
-| Microcontroller | ESP-8266EX |
+ Microcontroller | ESP-8266EX 
 
-| Operating Voltage | 3.3V | 
+Operating Voltage | 3.3V 
 
-| Analog Input Pins | 1 (Max input: 3.3V) | 
+Analog Input Pins | 1 (Max input: 3.3V) 
 
-| Digital I/O Pins | 11 | 
+Digital I/O Pins | 11 
 
-| Clock Speed | 80MHz/160MHz | 
+Clock Speed | 80MHz/160MHz 
 
-| Flash | 1M bytes | 
+Flash | 1M bytes
 
-| Length | 34.2mm | 
+Length | 34.2mm
 
-| Width | 25.6mm | 
+Width | 25.6mm
 
-| Weight | 10g |
+Weight | 10g
 
 | Option | Description |
 
