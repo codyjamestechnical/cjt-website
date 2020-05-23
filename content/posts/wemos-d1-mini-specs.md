@@ -40,7 +40,7 @@ toc = true
 
 ### Board Components
 
-{{< image src="/images/wemos-d1-mini-schematic.jpg" caption="D1 Mini Board Schematic"  src-l="/images/wemos-d1-mini-schematic.jpg" linked=false  >}}
+{{< image src="/images/wemos-d1-mini-schematic.jpg" caption="D1 Mini Board Schematic"  src-l="/images/wemos-d1-mini-schematic.jpg" linked=true  >}}
 
 ### Board Pinout
-{{< image src="/images/ejgv2b6srupq50ou-wemos-d1-mini-pinout.png" caption="D1 Mini Board Pinout"  src-l="/images/ejgv2b6srupq50ou-wemos-d1-mini-pinout.png" linked=false  >}}
+{{< image src="/images/ejgv2b6srupq50ou-wemos-d1-mini-pinout.png" caption="D1 Mini Board Pinout"  src-l="/images/ejgv2b6srupq50ou-wemos-d1-mini-pinout.png" linked=true  >}}
