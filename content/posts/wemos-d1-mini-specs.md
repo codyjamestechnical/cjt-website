@@ -1,5 +1,5 @@
 +++
-categories = []
+categories = ["Arduino"]
 date = 2020-05-22T15:32:51Z
 description = "Specs & Pinouts for the WeMos D1 Mini"
 featuredImage = "/images/wemos_d1_mini_frontback-1.jpg"
