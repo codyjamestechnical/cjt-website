@@ -7,6 +7,7 @@ fields:
   type: boolean
   label: Draft
   default: true
+  hidden: true
 - type: text
   name: title
   label: Title
