@@ -25,7 +25,7 @@ toc = true
 
 ### Technical Specs
 
-| --------------------------- | ------------------------- |
+| --- | ---- |
 | Microcontroller | ESP-8266EX | 
 | Operating Voltage | 3.3V |
 | Analog Input Pins | 1 (Max input: 3.3V) | 
