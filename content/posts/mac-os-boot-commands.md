@@ -40,7 +40,7 @@ Hold **⌥ Option + ⌘ Command + P + R** while booting
 
 Resetting the \[SMC\]^(system management controller) can help with many hardware issues. If your fans are running even when your Mac is idle is a good example. It also addresses issues with sleep, the ambient light sensor, and keyboard backlight. It may fix some issues with your Mac’s battery charging.
 
-> These instructions were copied verbatim from [Apple Support](https://support.apple.com/en-us/HT201295)
+> The instructions for resetting SMC were copied verbatim from [Apple Support](https://support.apple.com/en-us/HT201295)
 
 #### For Macs with a T2 chip
 
