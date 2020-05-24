@@ -15,10 +15,9 @@ menu:
 
 
 <form name="contact" method="POST" data-netlify="true">
-	<div class="vheader item2">
+	<div class="vheader item3">
     <input class="vinput" type="text" name="name" placeholder="Your Name" required />  
     <input class="vinput" type="email" name="email" placeholder="E-Mail" required />
-    </div>
     <div class="vheader item1">
     <select class="vinput vselect" name="reason[]" required>
     <option value="" disabled selected hidden>Reason For Contacting</option>
