@@ -22,11 +22,9 @@ menu:
 <div id="valine" class="comment v" data-class="v">
 <div class="vpanel">
 <div class="vwrap">
-
-
   <input name="how many bugs" hidden placeholder="How Many Bugs?" />
 	<div class="vheader item3">
-    <input class="vinput" type="text" name="name" placeholder="Name" required />  
+    <input class="vinput" type="text" name="name" placeholder="Name" required />
     <input class="vinput" type="email" name="email" placeholder="E-Mail" required />
     <select class="vinput vselect" name="reason[]" required>
       <option value="" disabled selected hidden>Reason for Contacting</option>
@@ -38,13 +36,11 @@ menu:
       <option value="Other">Other</option>
     </select>
     </div>
-    
  <div class="vedit">
     <textarea class="veditor vinput" required name="message" placeholder="Message..."></textarea>
   </div>
   <div class="vrow">
   <div  class="vcol vcol-30">
-
   </div>
   	<div class="vcol vcol-70 text-right">
   	<button class="vsubmit vbtn" type="submit">Send Message</button>
