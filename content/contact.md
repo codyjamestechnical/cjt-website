@@ -19,7 +19,7 @@ menu:
     <input class="vinput" type="text" name="name" placeholder="Your Name" required />  
     <input class="vinput" type="email" name="email" placeholder="E-Mail" required />
     <select class="vinput vselect" name="reason[]" required>
-    <option value="" disabled selected hidden>Reason For Contacting</option>
+      <option value="" disabled selected>Reason For Contacting</option>
       <option value="Computer_Repair">Computer Repair</option>
       <option value="Website_Dev">Website Development</option>
       <option value="Coding">Application Development</option>
