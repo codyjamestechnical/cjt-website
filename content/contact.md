@@ -4,7 +4,7 @@ date: 2020-05-23T22:48:58-04:00
 draft: false
 ---
 
-<div id="valine">
+<div id="valine" class="comment v">
 <div class="vpanel">
 <div class="vwrap">
 
@@ -27,7 +27,7 @@ draft: false
   </div>
   <div class="vrow">
   	<div class="text-right">
-  	<button type="submit">Send</button>
+  	<button class="vsubmit vbtn"  type="submit">Send</button>
   	</div>
   	</div>
 </form>
