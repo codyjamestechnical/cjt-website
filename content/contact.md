@@ -2,9 +2,9 @@
 title: "Contact"
 date: 2020-05-23T22:48:58-04:00
 draft: false
-comment: true
 ---
-{{< script type="text/javascript" src="https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js" >}}
+{{< script >}}
+$('head').append('<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js">');
 {{< /script >}}
 <div id="valine" class="comment v" data-class="v">
 <div class="vpanel">
