@@ -8,7 +8,7 @@ select::-ms-expand {
 .vselect {
     background: none;
     border: none;
-    width: 32% !important;
+    width: 3% !important;
     -moz-appearance: none;
     -webkit-appearance: none;
 }

@@ -37,7 +37,7 @@ menu:
     </select>
     </div>
  <div class="vedit">
-    <textarea class="veditor vinput" required name="message" placeholder="Message..."></textarea>
+    <textarea rows="10" class="veditor vinput" required name="message" placeholder="Message..."></textarea>
   </div>
   <div class="vrow">
   <div  class="vcol vcol-30">
