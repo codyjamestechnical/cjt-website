@@ -15,7 +15,7 @@ menu:
 
 
 <form name="contact" method="POST" netlify-honeypot="how many bugs" data-netlify-recaptcha="true" data-netlify="true">
-  <input name="how many bugs" class="hidden" placeholder="How Many Bugs?" />
+  <input name="how many bugs" hidden placeholder="How Many Bugs?" />
 	<div class="vheader item3">
     <input class="vinput" type="text" name="name" placeholder="Name" required />  
     <input class="vinput" type="email" name="email" placeholder="E-Mail" required />
