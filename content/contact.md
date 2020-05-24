@@ -5,6 +5,7 @@ draft: false
 ---
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js"></script>
 <link rel="stylesheet" href="https://themes.gohugo.io//theme/LoveIt/lib/valine/valine.min.css">
+<link rel="stylesheet" href="https://codyjames.dev/uploads/CSS.css">
 
 <div id="valine" class="comment v" data-class="v">
 <div class="vpanel">
