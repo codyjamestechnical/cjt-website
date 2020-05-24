@@ -18,13 +18,12 @@ menu:
 {{< /script >}}
 <link rel="stylesheet" href="https://themes.gohugo.io//theme/LoveIt/lib/valine/valine.min.css">
 <link rel="stylesheet" href="https://codyjames.dev/uploads/CSS.css">
-
+<form name="contact" method="POST" netlify-honeypot="how many bugs" data-netlify-recaptcha="true" data-netlify="true">
 <div id="valine" class="comment v" data-class="v">
 <div class="vpanel">
 <div class="vwrap">
 
 
-<form name="contact" method="POST" netlify-honeypot="how many bugs" data-netlify-recaptcha="true" data-netlify="true">
   <input name="how many bugs" hidden placeholder="How Many Bugs?" />
 	<div class="vheader item3">
     <input class="vinput" type="text" name="name" placeholder="Name" required />  
@@ -44,14 +43,16 @@ menu:
     <textarea class="veditor vinput" required name="message" placeholder="Message..."></textarea>
   </div>
   <div class="vrow">
-  <div data-netlify-recaptcha="true" class="vcol vcol-30">
+  <div  class="vcol vcol-30">
 
   </div>
   	<div class="vcol vcol-70 text-right">
   	<button class="vsubmit vbtn" type="submit">Send Message</button>
   	</div>
   	</div>
+
+</div>
+</div>
+</div>
+<div data-netlify-recaptcha="true"></div>
 </form>
-</div>
-</div>
-</div>

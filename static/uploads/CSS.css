@@ -2,22 +2,6 @@ select::-ms-expand {
     display: none;
 }
 
-.rc-anchor {
-    background: none !important;
-    border: none !important;
-
-}
-.rc-anchor-light { 
-    background: #000 !important; 
-    color: #000 !important; }
-.grecaptcha-badge {
-
-    display: none !important;
-    
-}
-.rc-anchor-normal-footer {
-    display: none !important;
-}
 .vselect {
     background: none;
     border: none;
