@@ -1,7 +1,10 @@
 select::-ms-expand {
     display: none;
 }
-
+.recaptcha iframe {
+    position: absolute;
+    right: 0px;
+}
 .vselect {
     background: none;
     border: none;

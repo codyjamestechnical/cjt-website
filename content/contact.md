@@ -54,5 +54,5 @@ menu:
 </div>
 </div>
 </div>
-<div data-netlify-recaptcha="true"></div>
+<div data-netlify-recaptcha="true" class="recaptcha"></div>
 </form>
