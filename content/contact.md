@@ -1,9 +1,11 @@
 ---
-title: "Contact"
-date: 2020-05-23T22:48:58-04:00
-draft: false
----
+title: Contact
+date: 2020-05-24T02:48:58.000+00:00
+menu:
+  main:
+    weight: 5
 
+---
 <form name="contact" method="POST" data-netlify="true">
   <p>
     <label>Your Name: <input type="text" name="name" /></label>   

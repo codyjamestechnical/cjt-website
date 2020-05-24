@@ -1,227 +1,158 @@
 baseURL = "https://codyjames.dev"
-# [en, zh-cn, fr, ...] determines default content language
 defaultContentLanguage = "en"
-
+enableEmoji = true
+enableGitInfo = true
+keywords = ["Tech", "Developer", "Linux", "JavaScript", "HTML", "Programming", "Arduino"]
 languageCode = "en"
-# Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
 title = "Cody James"
-keywords = ["Tech", "Developer", "Linux", "JavaScript", "HTML", "Programming", "Arduino"]
-enableGitInfo = true
-enableEmoji = true
-[params]
-  # LoveIt theme version
-  version = "0.2.X"
-  # site default theme ("light", "dark", "auto")
-  defaultTheme = "dark"
-  gitRepo = "https://github.com/codyjamestechnical/cjt-website"
-# Header config
-  [params.header]
-    # desktop header mode ("fixed", "normal", "auto")
-    desktopMode = "fixed"
-    # mobile header mode ("fixed", "normal", "auto")
-    mobileMode = "auto"
-    # LoveIt NEW | 0.2.0 Header title config
-  [params.header.title]
-    # URL of the LOGO
-    logo = ""
-    # title name
-    name = "Cody James"
-    # you can add extra information before the name (HTML format is supported), such as icons
-    pre = ""
-    # you can add extra information after the name (HTML format is supported), such as icons
-    post = ""
-    # LoveIt NEW | 0.2.5 whether to use typeit animation for title name
-    typeit = false
-
-  [params.footer]
-    enabled = true
-    hugo = false
-    copyright = true
-    author = true
-    since = 1337
-  [params.search]
-    enable = true
-    type = "lunr"
-    contentLength = 5000
-    placeholder = ""
-    maxResultLength = 20
-    snippetLength = 40
-    highlightTag = "em"
-    absoluteURL = false
-  [params.section]
-    # special amount of posts in each section page
-    paginate = 20
-    # date format (month and day)
-    dateFormat = "01-02"
-    # amount of RSS pages
-    rss = 10
-
-  # LoveIt NEW | 0.2.0 List (category or tag) page config
-  [params.list]
-    # special amount of posts in each list page
-    paginate = 20
-    # date format (month and day)
-    dateFormat = "01-02"
-    # amount of RSS pages
-    rss = 10
-  [params.home]
-    rss = 10
-    [params.home.profile]
-      enable = true
-      avatarURL = "https://codyjames.dev/images/myAvatar-smirk.svg"
-      title = "Cody James"
-      subtitle = "Web Developer, Programmer, Computer Repair, Arduino."
-      typeit = true
-      social = true
-  [params.social]
-    GitHub = "https://github.com/codyjamestechnical"
-    Email = "email@codyjames.dev"
-    RSS = true
-  [params.page]
-    # whether to enable twemoji
-    twemoji = false
-    # whether to enable lightgallery
-    lightgallery = true
-    # whether to enable the ruby extended syntax
-    ruby = true
-    # whether to enable the fraction extended syntax
-    fraction = true
-    # whether to enable the fontawesome extended syntax
-    fontawesome = true
-    # whether to show link to Raw Markdown content of the content
-    linkToMarkdown = true
-    # whether to show the full text content in RSS
-    rssFullText = true
-    # Table of the contents config
-    [params.page.toc]
-        # whether to enable the table of the contents
-        enable = true
-        # whether to keep the static table of the contents in front of the post
-        keepStatic = false
-        # whether to make the table of the contents in the sidebar automatically collapsed
-        auto = false
-      # Code config
-    [params.page.code]
-      # whether to show the copy button of the code block
-      copy = true
-      # the maximum number of lines of displayed code by default
-      maxShownLines = 10
-    # KaTeX mathematical formulas config (KaTeX https://katex.org/)
-    [params.page.math]
-      enable = false
-      # default block delimiter is $$ ... $$ and \\[ ... \\]
-      blockLeftDelimiter = ""
-      blockRightDelimiter = ""
-      # default inline delimiter is $ ... $ and \\( ... \\)
-      inlineLeftDelimiter = ""
-      inlineRightDelimiter = ""
-      # KaTeX extension copy_tex
-      copyTex = true
-      # KaTeX extension mhchem
-      mhchem = true
-    [params.page.share]
-      enable = true
-      Twitter = true
-      Facebook = true
-      HackerNews = true
-      Reddit = true
-      Pocket = true
-[menu]
-  [[menu.main]]
-    identifier = "posts"
-    # you can add extra information before the name (HTML format is supported), such as icons
-    pre = ""
-    # you can add extra information after the name (HTML format is supported), such as icons
-    post = ""
-    name = "Posts"
-    url = "/posts/"
-    # title will be shown when you hover on this menu link
-    title = ""
-    weight = 1
-  [[menu.main]]
-    identifier = "tags"
-    pre = ""
-    post = ""
-    name = "Tags"
-    url = "/tags/"
-    title = ""
-    weight = 2
-  [[menu.main]]
-    identifier = "categories"
-    pre = ""
-    post = ""
-    name = "Categories"
-    url = "/categories/"
-    title = ""
-    weight = 3
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    title = "About Me"
-    weight = 4
-
-# Markup related config in Hugo
-[markup]
-  # Syntax Highlighting
-  [markup.highlight]
-    codeFences = true
-    guessSyntax = true
-    lineNos = true
-    lineNumbersInTable = true
-    # false is a necessary configuration
-    # (https://github.com/dillonzq/LoveIt/issues/158)
-    noClasses = false
-  # Goldmark is from Hugo 0.60 the default library used for Markdown
-  [markup.goldmark]
-    [markup.goldmark.extensions]
-      definitionList = true
-      footnote = true
-      linkify = true
-      strikethrough = true
-      table = true
-      taskList = true
-      typographer = true
-    [markup.goldmark.renderer]
-      # whether to use HTML tags directly in the document
-      unsafe = true
-  # Table Of Contents settings
-  [markup.tableOfContents]
-    startLevel = 2
-    endLevel = 6
-
-[sitemap]
-  changefreq = "weekly"
-  filename = "sitemap.xml"
-  priority = 0.5
-
 [Permalinks]
-  # posts = ":year/:month/:filename"
-  posts = ":filename"
-
-# Author config
+posts = ":filename"
 [author]
-  name = "Cody James"
-  email = "email@codyjames.dev"
-  link = "https://codyjames.dev/about"
-
-# Options to make output .md files
-[mediaTypes]
-  [mediaTypes."text/plain"]
-    suffixes = ["md"]
-
-# Options to make output .md files
+email = "email@codyjames.dev"
+link = "https://codyjames.dev/about"
+name = "Cody James"
+[markup.goldmark.extensions]
+definitionList = true
+footnote = true
+linkify = true
+strikethrough = true
+table = true
+taskList = true
+typographer = true
+[markup.goldmark.renderer]
+unsafe = true
+[markup.highlight]
+codeFences = true
+guessSyntax = true
+lineNos = true
+lineNumbersInTable = true
+noClasses = false
+[markup.tableOfContents]
+endLevel = 6
+startLevel = 2
+[mediaTypes."text/plain"]
+suffixes = ["md"]
+[[menu.main]]
+identifier = "about"
+name = "About"
+title = "About Me"
+url = "/about/"
+weight = 4
+[[menu.main]]
+identifier = "categories"
+name = "Categories"
+post = ""
+pre = ""
+title = ""
+url = "/categories/"
+weight = 3
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+post = ""
+pre = ""
+title = ""
+url = "/tags/"
+weight = 2
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+post = ""
+pre = ""
+title = ""
+url = "/posts/"
+weight = 1
 [outputFormats.MarkDown]
-  mediaType = "text/plain"
-  isPlainText = true
-  isHTML = false
-  
-# Options to make hugo output files
+isHTML = false
+isPlainText = true
+mediaType = "text/plain"
 [outputs]
-  # LoveIt CHANGED | 0.2.0
-  home = ["HTML", "RSS", "JSON"]
-  page = ["HTML", "MarkDown"]
-  section = ["HTML", "RSS"]
-  taxonomy = ["HTML", "RSS"]
-  taxonomyTerm = ["HTML"]
+home = ["HTML", "RSS", "JSON"]
+page = ["HTML", "MarkDown"]
+section = ["HTML", "RSS"]
+taxonomy = ["HTML", "RSS"]
+taxonomyTerm = ["HTML"]
+[params]
+defaultTheme = "dark"
+gitRepo = "https://github.com/codyjamestechnical/cjt-website"
+version = "0.2.X"
+[params.footer]
+author = true
+copyright = true
+enabled = true
+hugo = false
+since = 1337
+[params.header]
+desktopMode = "fixed"
+mobileMode = "auto"
+[params.header.title]
+logo = ""
+name = "Cody James"
+post = ""
+pre = ""
+typeit = false
+[params.home]
+rss = 10
+[params.home.profile]
+avatarURL = "https://codyjames.dev/images/myAvatar-smirk.svg"
+enable = true
+social = true
+subtitle = "Web Developer, Programmer, Computer Repair, Arduino."
+title = "Cody James"
+typeit = true
+[params.list]
+dateFormat = "01-02"
+paginate = 20
+rss = 10
+[params.page]
+fontawesome = true
+fraction = true
+lightgallery = true
+linkToMarkdown = true
+rssFullText = true
+ruby = true
+twemoji = false
+[params.page.code]
+copy = true
+maxShownLines = 10
+[params.page.math]
+blockLeftDelimiter = ""
+blockRightDelimiter = ""
+copyTex = true
+enable = false
+inlineLeftDelimiter = ""
+inlineRightDelimiter = ""
+mhchem = true
+[params.page.share]
+Facebook = true
+HackerNews = true
+Pocket = true
+Reddit = true
+Twitter = true
+enable = true
+[params.page.toc]
+auto = false
+enable = true
+keepStatic = false
+[params.search]
+absoluteURL = false
+contentLength = 5000
+enable = true
+highlightTag = "em"
+maxResultLength = 20
+placeholder = ""
+snippetLength = 40
+type = "lunr"
+[params.section]
+dateFormat = "01-02"
+paginate = 20
+rss = 10
+[params.social]
+Email = "email@codyjames.dev"
+GitHub = "https://github.com/codyjamestechnical"
+RSS = true
+[sitemap]
+changefreq = "weekly"
+filename = "sitemap.xml"
+priority = 0.5
