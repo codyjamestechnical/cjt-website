@@ -5,6 +5,8 @@ select::-ms-expand {
     background: none;
     border: none;
     width: 250px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
 }
 .v[data-class=v] {
  font-size:16px;
