@@ -1,11 +1,20 @@
 ---
+<<<<<<< HEAD
 title: "Contact"
 date: 2020-05-23T22:48:58-04:00
 draft: false
 ---
 <div class="vpanel">
 <div class="vwrap">
+=======
+title: Contact
+date: 2020-05-24T02:48:58.000+00:00
+menu:
+  main:
+    weight: 5
+>>>>>>> 6326eb24b78a289d5898dff415d1743642111478
 
+---
 <form name="contact" method="POST" data-netlify="true">
 	<div class="vheader item3">
     <input type="text" name="name" placeholder="Your Name"/>  
@@ -30,6 +39,10 @@ draft: false
   	</div>
     
   </p>
+<<<<<<< HEAD
 </form>
 </div>
 </div>
+=======
+</form>
+>>>>>>> 6326eb24b78a289d5898dff415d1743642111478
