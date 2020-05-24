@@ -28,7 +28,7 @@ Press **⌥ Option** key on boot
 
 Hod **D** key while machine boots
 
-{{< image src="/images/apple_hardware_tests.jpg" caption="OSX Rocovery Utilities" src-l="/images/apple_hardware_tests.jpg" linked=true  >}}
+{{< image src="/images/apple_hardware_tests.jpg" caption="Apple Hardware Test" src-l="/images/apple_hardware_tests.jpg" linked=true  >}}
 
 ### Reset NVRAM
 
