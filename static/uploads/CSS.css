@@ -7,6 +7,9 @@ select::-ms-expand {
     border: none !important;
 
 }
+.rc-anchor-light { 
+    background: #000 !important; 
+    color: #000 !important; }
 .grecaptcha-badge {
 
     display: none !important;
