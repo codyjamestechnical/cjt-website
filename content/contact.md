@@ -24,9 +24,9 @@ menu:
 <div class="vwrap">
   <input name="how many bugs" hidden placeholder="How Many Bugs?" />
 	<div class="vheader item3">
-    <input class="vinput" type="text" name="name" placeholder="Name" required />
-    <input class="vinput" type="email" name="email" placeholder="E-Mail" required />
-    <select class="vinput vselect" name="reason[]" required>
+    <input class="vinput" type="text" name="name" placeholder="Name" oninvalid="this.setCustomValidity('Please Enter Your Name')" required />
+    <input class="vinput" type="email" name="email" placeholder="E-Mail" oninvalid="this.setCustomValidity('Please Enter a Valid E-Mail')" required />
+    <select class="vinput vselect" name="reason[]" oninvalid="this.setCustomValidity('Please Select Reason For Contacting')" required>
       <option value="" disabled selected hidden>Reason for Contacting</option>
       <option value="Computer_Repair">Computer Repair</option>
       <option value="Website_Dev">Website Development</option>
@@ -37,7 +37,7 @@ menu:
     </select>
     </div>
  <div class="vedit">
-    <textarea rows="10" class="veditor vinput" required name="message" placeholder="Message..."></textarea>
+    <textarea rows="10" class="veditor vinput" required name="message" oninvalid="this.setCustomValidity('Please Enter a Message')" placeholder="Message..."></textarea>
   </div>
   <div class="vrow">
   <div  class="vcol vcol-30">
