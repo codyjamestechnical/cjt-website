@@ -4,16 +4,7 @@ date: 2020-05-23T22:48:58-04:00
 draft: false
 ---
 {{< script >}}
-if(document.createStyleSheet) {
-  document.createStyleSheet('https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.css');
-}
-else {
-  var styles = "@import url('https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.css');";
-  var newSS=document.createElement('link');
-  newSS.rel='stylesheet';
-  newSS.href='data:text/css,'+escape(styles);
-  document.getElementsByTagName("head")[0].appendChild(newSS);
-}
+<link rel="stylesheet" href="https://themes.gohugo.io//theme/LoveIt/lib/valine/valine.min.css">
 {{< /script >}}
 <div id="valine" class="comment v" data-class="v">
 <div class="vpanel">
