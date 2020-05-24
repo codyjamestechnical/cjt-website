@@ -1,9 +1,11 @@
 ---
-title: "Contact"
-date: 2020-05-23T22:48:58-04:00
-draft: false
----
+title: Contact
+date: 2020-05-24T02:48:58.000+00:00
+menu:
+  main:
+    weight: 5
 
+---
 <link rel="stylesheet" href="https://themes.gohugo.io//theme/LoveIt/lib/valine/valine.min.css">
 <link rel="stylesheet" href="https://codyjames.dev/uploads/CSS.css">
 
@@ -38,4 +40,3 @@ draft: false
 </div>
 </div>
 </div>
-
