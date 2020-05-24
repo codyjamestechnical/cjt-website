@@ -18,7 +18,7 @@ toc = true
 
 Temporary files such as app downloads, receipts, and screenshots have a way of multiplying in number super fast. Yes, you need to keep them for a while, but they often get in the way. Mark such future junk files with a _temp_ (“temporary”) tag.
 
-{{< image src="/images/finder-temporary-tag-670x340.jpg" caption=""  src-l="/images/finder-temporary-tag-670x340.jpg" linked=true  >}}
+{{< image src="/images/finder-temporary-tag-670x340.jpg" caption="Finder Temp Tag"  src-l="/images/finder-temporary-tag-670x340.jpg" linked=true  >}}
 
 ### Highlight Task-Related Data
 
