@@ -16,9 +16,9 @@ toc = true
 
 ### Highlight Temporary Data
 
-Temporary files such as app downloads, receipts, and screenshots have a way of multiplying in number super fast. Yes, you need to keep them for a while, but they often get in the way. Mark such future junk files with a *temp* (“temporary”) tag.
+Temporary files such as app downloads, receipts, and screenshots have a way of multiplying in number super fast. Yes, you need to keep them for a while, but they often get in the way. Mark such future junk files with a _temp_ (“temporary”) tag.
 
-{{< image src="/images/finder-temporary-tag-670x340.jpg" caption="" src-s="/images/<<SMALL IMAGE>>" src-l="/images/finder-temporary-tag-670x340.jpg" linked=false  >}}
+{{< image src="/images/finder-temporary-tag-670x340.jpg" caption=""  src-l="/images/finder-temporary-tag-670x340.jpg" linked=true  >}}
 
 ### Highlight Task-Related Data
 
@@ -29,20 +29,29 @@ Setup an "_Action_" tag for files that need relatively quick action. Like renami
 #### Markdown Preview
 
 Install [QLMarkdown](https://github.com/toland/qlmarkdown) extension:
-  ```shell
-  brew cask install qlmarkdown
-  ```
-  To enable text selection in [QLMarkdown](https://github.com/toland/qlmarkdown), run:
-  ```shell
-  defaults write com.apple.finder QLEnableTextSelection -bool TRUE; killall Finder
-  ```
-  #### Video Thumbnail Preview
-  [QLVideo](https://github.com/Marginal/QLVideo) adds support for more video types.
-  ```shell
-  brew cask install qlvideo
-  ```
-  #### Add Support for More Text Files
-  [QLStephen](https://github.com/whomwah/qlstephen) will allow quick look to show more file types.
-  ```shell
-  brew cask install qlstephen
-  ```
+
+```shell
+brew cask install qlmarkdown
+```
+
+To enable text selection in [QLMarkdown](https://github.com/toland/qlmarkdown), run:
+
+```shell
+defaults write com.apple.finder QLEnableTextSelection -bool TRUE; killall Finder
+```
+
+#### Video Thumbnail Preview
+
+[QLVideo](https://github.com/Marginal/QLVideo) adds support for more video types.
+
+```shell
+brew cask install qlvideo
+```
+
+#### Add Support for More Text Files
+
+[QLStephen](https://github.com/whomwah/qlstephen) will allow quick look to show more file types.
+
+```shell
+brew cask install qlstephen
+```
