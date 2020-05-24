@@ -18,7 +18,6 @@ menu:
 	<div class="vheader item3">
     <input class="vinput" type="text" name="name" placeholder="Your Name" required />  
     <input class="vinput" type="email" name="email" placeholder="E-Mail" required />
-    <div class="vheader item1">
     <select class="vinput vselect" name="reason[]" required>
     <option value="" disabled selected hidden>Reason For Contacting</option>
       <option value="Computer_Repair">Computer Repair</option>
