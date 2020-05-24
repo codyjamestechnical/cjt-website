@@ -34,19 +34,13 @@ startLevel = 2
 [mediaTypes."text/plain"]
 suffixes = ["md"]
 [[menu.main]]
-identifier = "about"
-name = "About"
-title = "About Me"
-url = "/about/"
-weight = 4
-[[menu.main]]
-identifier = "categories"
-name = "Categories"
+identifier = "posts"
+name = "Posts"
 post = ""
 pre = ""
 title = ""
-url = "/categories/"
-weight = 3
+url = "/posts/"
+weight = 1
 [[menu.main]]
 identifier = "tags"
 name = "Tags"
@@ -56,13 +50,19 @@ title = ""
 url = "/tags/"
 weight = 2
 [[menu.main]]
-identifier = "posts"
-name = "Posts"
+identifier = "categories"
+name = "Categories"
 post = ""
 pre = ""
 title = ""
-url = "/posts/"
-weight = 1
+url = "/categories/"
+weight = 3
+[[menu.main]]
+identifier = "about"
+name = "About"
+title = "About Me"
+url = "/about/"
+weight = 4
 [outputFormats.MarkDown]
 isHTML = false
 isPlainText = true
