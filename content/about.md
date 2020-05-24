@@ -1,10 +1,11 @@
 ---
 title: About
-date: 2020-05-19T17:51:28.000+00:00
+date: 2020-05-19T13:51:28-04:00
 
 ---
+:(far fa-grin-tears):
 
-Hi, my name is Cody James. I'm in college for Electrical Engineering at Pellissippi State and I do freelance tech work to help pay the bills. I have been writing code and tinkering with electronics ever since I was old enough to read a manual. 
+Hi, my name is Cody James. I'm in college for Electrical Engineering at Pellissippi State and I do freelance tech work to help pay the bills. I have been writing code and tinkering with electronics ever since I was old enough to read a manual.
 
 ### Services I Offer
 
@@ -17,3 +18,9 @@ Hi, my name is Cody James. I'm in college for Electrical Engineering at Pellissi
 * General Electronics Repair
 
 Pricing is variable based on the work being done. Please contact me for pricing information.
+
+### Programming Languages
+
+| Language | Proficiency |
+| --- | --- |
+| JavaScript | :(fas fa-star): :(fas fa-star): :(fas fa-star): :(fas fa-star): :(fas fa-star):|
