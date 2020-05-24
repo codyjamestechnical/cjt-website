@@ -1,7 +1,7 @@
 ---
 title: "Contact"
 date: 2020-05-23T22:48:58-04:00
-draft: true
+draft: false
 ---
 
 <form name="contact" method="POST" data-netlify="true">
