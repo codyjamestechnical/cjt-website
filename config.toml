@@ -87,8 +87,8 @@ since = 1337
 desktopMode = "fixed"
 mobileMode = "auto"
 [params.header.title]
-logo = ""
-name = "Cody James"
+logo = "https://codyjames.dev/images/for-dark-bg.svg"
+name = ""
 post = ""
 pre = ""
 typeit = false
