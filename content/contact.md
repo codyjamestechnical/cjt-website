@@ -6,6 +6,16 @@ menu:
     weight: 5
 
 ---
+{{< script >}}
+  window.onload = function() {
+  var recaptcha = document.forms["contact"]["g-recaptcha-response"];
+  recaptcha.required = true;
+  recaptcha.oninvalid = function(e) {
+    // do something
+    alert("Please complete the captcha");
+  }
+}
+{{< /script >}}
 <link rel="stylesheet" href="https://themes.gohugo.io//theme/LoveIt/lib/valine/valine.min.css">
 <link rel="stylesheet" href="https://codyjames.dev/uploads/CSS.css">
 
