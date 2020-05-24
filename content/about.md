@@ -27,3 +27,7 @@ Pricing is variable based on the work being done. Please contact me for pricing 
 | C++ | :(fas fa-star): :(fas fa-star): :(fas fa-star): :(far fa-star): :(far fa-star):|
 | HTML | :(fas fa-star): :(fas fa-star): :(fas fa-star): :(fas fa-star): :(fas fa-star):|
 | CSS | :(fas fa-star): :(fas fa-star): :(fas fa-star): :(fas fa-star): :(far fa-star):|
+| Python | :(fas fa-star): :(fas fa-star): :(far fa-star): :(far fa-star): :(far fa-star):|
+| Bash | :(fas fa-star): :(fas fa-star): :(fas fa-star): :(fas fa-star): :(far fa-star):|
+| PHP | :(fas fa-star): :(fas fa-star): :(fas fa-star): :(far fa-star): :(far fa-star):|
+| SQL | :(fas fa-star): :(fas fa-star): :(fas fa-star): :(far fa-star): :(far fa-star):|
