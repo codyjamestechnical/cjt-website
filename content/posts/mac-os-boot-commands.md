@@ -70,7 +70,7 @@ Hold **⌘ Command + V** while booting.
 
 ### Safe Mode
 
-Hold **Shift** Key while booting.
+Hold **⌃ Shift** Key while booting.
 
 ### Single User Mode/Boot Into Shell
 
