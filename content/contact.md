@@ -5,10 +5,10 @@ draft: false
 ---
 {{< script >}}
 if(document.createStyleSheet) {
-  document.createStyleSheet('https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js');
+  document.createStyleSheet('https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.css');
 }
 else {
-  var styles = "@import url('https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js');";
+  var styles = "@import url('https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.css');";
   var newSS=document.createElement('link');
   newSS.rel='stylesheet';
   newSS.href='data:text/css,'+escape(styles);
