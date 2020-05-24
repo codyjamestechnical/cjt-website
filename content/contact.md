@@ -32,6 +32,7 @@ menu:
   </div>
   <div class="vrow">
   <div class="vcol vcol-30">
+  </div>
   	<div class="vcol vcol-70 text-right">
   	<button class="vsubmit vbtn" type="submit">Send</button>
   	</div>
