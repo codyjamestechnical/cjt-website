@@ -14,7 +14,7 @@ draft: false
   
     <input type="email" name="email" placeholder="E-Mail" />
   
-    <select name="reason[]" multiple>
+    <select name="reason[]" multiple placeholder="Reason For Contacting">
       <option value="Computer_Repair">Computer Repair</option>
       <option value="Website_Dev">Website Development</option>
       <option value="Coding">Application Development</option>
@@ -24,11 +24,12 @@ draft: false
     </select>
     </div>
  <div class="vedit">
-    <label>Message: <textarea name="message"></textarea></label>
+    <textarea name="message"></textarea>
   </div>
   <div class="vrow">
   	<div class="text-right">
   	<button type="submit">Send</button>
+  	</div>
   	</div>
 </form>
 </div>
