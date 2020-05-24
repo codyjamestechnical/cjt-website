@@ -3,7 +3,7 @@ title: "Contact"
 date: 2020-05-23T22:48:58-04:00
 draft: false
 ---
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js"></script>
+
 <link rel="stylesheet" href="https://themes.gohugo.io//theme/LoveIt/lib/valine/valine.min.css">
 <link rel="stylesheet" href="https://codyjames.dev/uploads/CSS.css">
 
