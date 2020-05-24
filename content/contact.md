@@ -11,9 +11,9 @@ draft: false
 
 <form name="contact" method="POST" data-netlify="true">
 	<div class="vheader item3">
-    <input type="text" name="name" placeholder="Your Name" />  
-    <input type="email" name="email" placeholder="E-Mail" />
-    <select name="reason[]" multiple placeholder="Reason For Contacting">
+    <input class="vinput" type="text" name="name" placeholder="Your Name" />  
+    <input class="vinput" type="email" name="email" placeholder="E-Mail" />
+    <select class="vinput" name="reason[]" multiple placeholder="Reason For Contacting">
       <option value="Computer_Repair">Computer Repair</option>
       <option value="Website_Dev">Website Development</option>
       <option value="Coding">Application Development</option>
@@ -23,7 +23,7 @@ draft: false
     </select>
     </div>
  <div class="vedit">
-    <textarea name="message" placeholder="Message..."></textarea>
+    <textarea class="veditor vinput" name="message" placeholder="Message..."></textarea>
   </div>
   <div class="vrow">
   	<div class="text-right">
