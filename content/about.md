@@ -23,4 +23,4 @@ Pricing is variable based on the work being done. Please contact me for pricing 
 
 | Language | Proficiency |
 | --- | --- |
-| JavaScript | :(fas fa-star): :(fas fa-star): :(fas fa-star): :(fas fa-star): :(fas fa-star):|
+| JavaScript | :(fas fa-star): :(fas fa-star): :(fas fa-star): :(far fa-star): :(far fa-star):|
