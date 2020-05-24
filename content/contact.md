@@ -3,6 +3,7 @@ title: "Contact"
 date: 2020-05-23T22:48:58-04:00
 draft: false
 ---
+
 <div id="valine">
 <div class="vpanel">
 <div class="vwrap">
@@ -10,10 +11,8 @@ draft: false
 
 <form name="contact" method="POST" data-netlify="true">
 	<div class="vheader item3">
-    <input type="text" name="name" placeholder="Your Name"/>  
-  
+    <input type="text" name="name" placeholder="Your Name" />  
     <input type="email" name="email" placeholder="E-Mail" />
-  
     <select name="reason[]" multiple placeholder="Reason For Contacting">
       <option value="Computer_Repair">Computer Repair</option>
       <option value="Website_Dev">Website Development</option>
@@ -24,7 +23,7 @@ draft: false
     </select>
     </div>
  <div class="vedit">
-    <textarea name="message" placeholder="Message...""></textarea>
+    <textarea name="message" placeholder="Message..."></textarea>
   </div>
   <div class="vrow">
   	<div class="text-right">
