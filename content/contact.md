@@ -16,7 +16,7 @@ draft: false
 	<div class="vheader item3">
     <input class="vinput" type="text" name="name" placeholder="Your Name" />  
     <input class="vinput" type="email" name="email" placeholder="E-Mail" />
-    <select class="vinput" name="reason[]" multiple placeholder="Reason For Contacting">
+    <select class="vinput" name="reason[]" placeholder="Reason For Contacting">
       <option value="Computer_Repair">Computer Repair</option>
       <option value="Website_Dev">Website Development</option>
       <option value="Coding">Application Development</option>
@@ -29,8 +29,9 @@ draft: false
     <textarea class="veditor vinput" name="message" placeholder="Message..."></textarea>
   </div>
   <div class="vrow">
-  	<div class="text-right">
-  	<button class="vsubmit vbtn"  type="submit">Send</button>
+  <div class="vcol vcol-30">
+  	<div class="vcol vcol-70 text-right">
+  	<button class="vsubmit vbtn" type="submit">Send</button>
   	</div>
   	</div>
 </form>
