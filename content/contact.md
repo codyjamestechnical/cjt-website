@@ -3,9 +3,9 @@ title: "Contact"
 date: 2020-05-23T22:48:58-04:00
 draft: false
 ---
-{{< script >}}
+
 <link rel="stylesheet" href="https://themes.gohugo.io//theme/LoveIt/lib/valine/valine.min.css">
-{{< /script >}}
+
 <div id="valine" class="comment v" data-class="v">
 <div class="vpanel">
 <div class="vwrap">
