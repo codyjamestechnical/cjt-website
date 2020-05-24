@@ -1,6 +1,16 @@
 select::-ms-expand {
     display: none;
 }
+
+.rc-anchor {
+    background: none !important;
+    border: none !important;
+
+}
+
+.rc-anchor-normal-footer {
+    display: none !important;
+}
 .vselect {
     background: none;
     border: none;
