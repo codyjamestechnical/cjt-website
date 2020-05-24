@@ -3,8 +3,6 @@ title: About
 date: 2020-05-19T13:51:28-04:00
 
 ---
-:(far fa-grin-tears):
-
 Hi, my name is Cody James. I'm in college for Electrical Engineering at Pellissippi State and I do freelance tech work to help pay the bills. I have been writing code and tinkering with electronics ever since I was old enough to read a manual.
 
 ### Services I Offer
