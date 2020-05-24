@@ -69,7 +69,7 @@ enableEmoji = true
     rss = 10
     [params.home.profile]
       enable = true
-      avatarURL = "https://codyjames.dev/images/myAvatar.svg"
+      avatarURL = "https://codyjames.dev/images/myAvatar-smirk.svg"
       title = "Cody James"
       subtitle = "Web Developer, Programmer, Computer Repair, Arduino."
       typeit = true
