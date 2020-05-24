@@ -3,7 +3,7 @@ title: "Contact"
 date: 2020-05-23T22:48:58-04:00
 draft: false
 ---
-
+<div id="valine">
 <div class="vpanel">
 <div class="vwrap">
 
@@ -24,7 +24,7 @@ draft: false
     </select>
     </div>
  <div class="vedit">
-    <textarea name="message"></textarea>
+    <textarea name="message" placeholder="Message...""></textarea>
   </div>
   <div class="vrow">
   	<div class="text-right">
@@ -34,6 +34,5 @@ draft: false
 </form>
 </div>
 </div>
-
-</form>
+</div>
 
