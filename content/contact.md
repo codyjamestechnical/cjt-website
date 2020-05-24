@@ -16,11 +16,12 @@ menu:
 
 <form name="contact" method="POST" data-netlify="true">
 	<div class="vheader item2">
-    <input class="vinput" type="text" name="name" placeholder="Your Name" />  
-    <input class="vinput" type="email" name="email" placeholder="E-Mail" />
+    <input class="vinput" type="text" name="name" placeholder="Your Name" required />  
+    <input class="vinput" type="email" name="email" placeholder="E-Mail" required />
     </div>
     <div class="vheader item1">
-    <select class="vinput vselect" name="reason[]" placeholder="Reason For Contacting">
+    <select class="vinput vselect" name="reason[]" required>
+    <option value="" disabled selected hidden>Reason For Contacting</option>
       <option value="Computer_Repair">Computer Repair</option>
       <option value="Website_Dev">Website Development</option>
       <option value="Coding">Application Development</option>
@@ -31,7 +32,7 @@ menu:
     </div>
     
  <div class="vedit">
-    <textarea class="veditor vinput" name="message" placeholder="Message..."></textarea>
+    <textarea class="veditor vinput" required name="message" placeholder="Message..."></textarea>
   </div>
   <div class="vrow">
   <div class="vcol vcol-30">
