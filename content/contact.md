@@ -2,6 +2,7 @@
 title: "Contact"
 date: 2020-05-23T22:48:58-04:00
 draft: false
+comment: true
 ---
 
 <div id="valine" class="comment v" data-class="v">
