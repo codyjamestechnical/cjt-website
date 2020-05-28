@@ -19,11 +19,13 @@ lastmod: 2020-05-20T20:30:12.000+00:00
 
 {{< admonition type=info title="Download Referenced Files" open=true >}} [Click here to download the files referenced in this article from my Dropbox ](https://www.dropbox.com/sh/11olmidp2oyvjz4/AACtmBchqIfxx9MhAjlErJawa?dl=0){{< /admonition >}}
 
-### Install Support for ExFat
+### :(fas fa-hdd): Install Support for ExFat
+
 ```Shell
 sudo apt install exfat-fuse exfat-utils
 ```
-*** 
+
+***
 
 ### Install earylyoom (Early Out Of Memory) Daemon
 
