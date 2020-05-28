@@ -39,7 +39,7 @@ sudo systemctl start earlyoom
 
 ***
 
-### Install Applications
+### :(fab fa-app-store): Install Applications
 
 * [Dropbox (deb)](https://www.dropbox.com/install-linux)
 * [Visual Studio Code (snap)](https://snapcraft.io/code)
