@@ -27,7 +27,7 @@ sudo apt install exfat-fuse exfat-utils
 
 ***
 
-### Install earylyoom (Early Out Of Memory) Daemon
+### :(fas fa-memory): Install earylyoom (Early Out Of Memory) Daemon
 
 [View on :(fab fa-github): GitHub](https://github.com/rfjakob/earlyoom)
 
