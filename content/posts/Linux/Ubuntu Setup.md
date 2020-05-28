@@ -19,7 +19,7 @@ lastmod: 2020-05-20T20:30:12.000+00:00
 
 {{< admonition type=info title="Download Referenced Files" open=true >}} [Click here to download the files referenced in this article from my Dropbox ](https://www.dropbox.com/sh/11olmidp2oyvjz4/AACtmBchqIfxx9MhAjlErJawa?dl=0){{< /admonition >}}
 
-### :(fas fa-hdd): Install Support for ExFat
+### Install Support for ExFat
 
 ```Shell
 sudo apt install exfat-fuse exfat-utils
@@ -27,7 +27,7 @@ sudo apt install exfat-fuse exfat-utils
 
 ***
 
-### :(fas fa-memory): Install earylyoom (Early Out Of Memory) Daemon
+### Install earylyoom (Early Out Of Memory) Daemon
 
 [View on :(fab fa-github): GitHub](https://github.com/rfjakob/earlyoom)
 
@@ -39,7 +39,7 @@ sudo systemctl start earlyoom
 
 ***
 
-### :(fab fa-app-store): Install Applications
+### Install Applications
 
 * [Dropbox (deb)](https://www.dropbox.com/install-linux)
 * [Visual Studio Code (snap)](https://snapcraft.io/code)
@@ -52,7 +52,7 @@ sudo systemctl start earlyoom
 
 ***
 
-### :(fab fa-docker): Finish Docker Snap Setup
+### Finish Docker Snap Setup
 
 ```shell
     sudo addgroup --system docker && \
@@ -67,7 +67,7 @@ sudo systemctl start earlyoom
 
 ***
 
-### :(fas fa-clipboard): Setup Dropbox clipboard sync
+### Setup Dropbox clipboard sync
 
 #### Install dependencies:
 
@@ -75,7 +75,7 @@ sudo systemctl start earlyoom
 sudo apt install xclip xdotool notify-osd yad
 ```
 
-#### :(far fa-keyboard): Create keyboard shortcuts:
+#### Create keyboard shortcuts:
 
 Create a keyboard shortcut with "ctrl+alt+v" with command:
 
@@ -97,7 +97,7 @@ bash "/home/cody/Dropbox/Bash Scripts/clip" --open-in-browser
 
 ***
 
-### :(fas fa-sync): Setup Resilio Sync for notes and whatever else I want
+### Setup Resilio Sync for notes and whatever else I want
 
 [Download The Deb](https://help.resilio.com/hc/en-us/articles/206178924)
 
