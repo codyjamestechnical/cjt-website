@@ -59,6 +59,4 @@ fields:
   label: Hide From Homepage
   default: false
 pages:
-- content/posts/finder-tips-extensions.md
-- content/posts/mac-os-boot-commands.md
 - content/posts/wemos-d1-mini-specs.md
