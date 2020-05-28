@@ -58,5 +58,3 @@ fields:
   type: boolean
   label: Hide From Homepage
   default: false
-pages:
-- content/posts/wemos-d1-mini-specs.md
