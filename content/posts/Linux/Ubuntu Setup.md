@@ -52,7 +52,7 @@ sudo systemctl start earlyoom
 
 ***
 
-### Finish Docker Snap Setup
+### :(fab fa-docker): Finish Docker Snap Setup
 
 ```shell
     sudo addgroup --system docker && \
@@ -67,7 +67,7 @@ sudo systemctl start earlyoom
 
 ***
 
-### Setup Dropbox clipboard sync
+### :(fas fa-clipboard): Setup Dropbox clipboard sync
 
 #### Install dependencies:
 
@@ -75,7 +75,7 @@ sudo systemctl start earlyoom
 sudo apt install xclip xdotool notify-osd yad
 ```
 
-#### Create keyboard shortcuts:
+#### :(far fa-keyboard): Create keyboard shortcuts:
 
 Create a keyboard shortcut with "ctrl+alt+v" with command:
 
@@ -97,7 +97,7 @@ bash "/home/cody/Dropbox/Bash Scripts/clip" --open-in-browser
 
 ***
 
-### Setup Resilio Sync for notes and whatever else I want
+### :(fas fa-sync): Setup Resilio Sync for notes and whatever else I want
 
 [Download The Deb](https://help.resilio.com/hc/en-us/articles/206178924)
 
