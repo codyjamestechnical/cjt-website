@@ -210,6 +210,9 @@ select::-ms-expand {
  border-bottom-color:#eb5055
 }
 @media screen and (max-width:520px) {
+.vselect {
+    width: 100%
+}
  .v[data-class=v] .vwrap .vheader.item2 .vinput,
  .v[data-class=v] .vwrap .vheader .vinput {
   width:100%
