@@ -14,6 +14,14 @@ menu:
     // do something
     alert("Please complete the captcha");
   }
+  $("#my-form").submit(function(e) {
+  e.preventDefault();
+
+  var $form = $(this);
+  $.post($form.attr("action"), $form.serialize()).then(function() {
+    alert("Thank you!");
+  });
+});
 }
 {{< /script >}}
 <link rel="stylesheet" href="https://themes.gohugo.io//theme/LoveIt/lib/valine/valine.min.css">
