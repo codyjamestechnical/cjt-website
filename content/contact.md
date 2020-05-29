@@ -14,7 +14,7 @@ menu:
     // do something
     alert("Please complete the captcha");
   }
-  $("#my-form").submit(function(e) {
+  $("#contact").submit(function(e) {
   e.preventDefault();
 
   var $form = $(this);
