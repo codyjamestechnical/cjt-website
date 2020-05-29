@@ -7,6 +7,7 @@ menu:
 
 ---
 {{< script >}}
+  console.log("test message");
   window.onload = function() {
   var recaptcha = document.forms["contact"]["g-recaptcha-response"];
   recaptcha.required = true;
