@@ -98,7 +98,7 @@ rss = 10
 avatarURL = "https://codyjames.dev/images/myAvatar-smirk.svg"
 enable = true
 social = true
-subtitle = "Web Developer, Coder, Computer Repair Tech, & Electronics Repair"
+subtitle = "Web Developer, Coder, Computer & Electronics Repair Tech"
 title = "Cody James"
 typeit = true
 [params.list]
