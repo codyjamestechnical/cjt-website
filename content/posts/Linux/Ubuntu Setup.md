@@ -23,11 +23,11 @@ lastmod: 2020-05-20T20:30:12.000+00:00
 
 ### Install Applications
 
-* [Dropbox (deb)](https://www.dropbox.com/install-linux)
 * [Visual Studio Code (snap)](https://snapcraft.io/code)
 * [Spotify (snap)](https://snapcraft.io/spotify)
 * [Mailspring (snap)](https://snapcraft.io/mailspring)
 * [Docker (snap)](https://snapcraft.io/docker)
+* [Dropbox (deb)](https://www.dropbox.com/install-linux)
 * [Enpass (deb)](https://www.enpass.io/support/kb/general/how-to-install-enpass-on-linux/)
 * [Kitematic (deb)](https://github.com/docker/kitematic/releases)
 * [Private Internet Access (deb)](https://www.privateinternetaccess.com/pages/download)
