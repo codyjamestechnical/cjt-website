@@ -203,6 +203,7 @@ The Yaru Dark theme makes VLC look like a native app.
 {{< image src="https://gitlab.com/NovaQC/vlc-yaru-dark/-/raw/master/VLC_video.gif" caption="Image from NovaQC on gitlab"  src-l="https://gitlab.com/NovaQC/vlc-yaru-dark/-/raw/master/VLC_video.gif" linked=true  >}}
 
 To enable the theme:
+
 [Download Theme Here](https://gitlab.com/NovaQC/vlc-yaru-dark/-/raw/master/YaruDark.vlt)
 
 Open VLC and go to Preferences > Interface, click the radial button that says "Use Custom Skin," and select the "YaruDark.vlt" file.
