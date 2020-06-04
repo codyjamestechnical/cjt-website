@@ -35,6 +35,8 @@ sudo apt install exfat-fuse exfat-utils
 
 [View on :(fab fa-github): GitHub](https://github.com/rfjakob/earlyoom)
 
+Earlyoom kills processes faster than the kernels oom-killer when the system is running low on memory. This helps keep the system responsive, preventing you from sitting in-front of a computer that has slowed to a crawl while you wait on the kernel to kill the out of control process.
+
 ```shell
 sudo apt install earlyoom && \
 sudo systemctl enable earlyoom && \
