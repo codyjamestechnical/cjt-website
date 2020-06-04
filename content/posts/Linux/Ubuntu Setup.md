@@ -186,7 +186,7 @@ sudo apt install gnome-sushi
 
 This theme makes VLC look like a native app.
 
-{{< image src="[https://gitlab.com/NovaQC/vlc-yaru-dark/-/raw/master/VLC_video.gif](https://gitlab.com/NovaQC/vlc-yaru-dark/-/raw/master/VLC_video.gif "https://gitlab.com/NovaQC/vlc-yaru-dark/-/raw/master/VLC_video.gif")" caption="Image from NovaQC on gitlab"  src-l="[https://gitlab.com/NovaQC/vlc-yaru-dark/-/raw/master/VLC_video.gif](https://gitlab.com/NovaQC/vlc-yaru-dark/-/raw/master/VLC_video.gif "https://gitlab.com/NovaQC/vlc-yaru-dark/-/raw/master/VLC_video.gif")" linked=true  >}}
+{{< image src="https://gitlab.com/NovaQC/vlc-yaru-dark/-/raw/master/VLC_video.gif](https://gitlab.com/NovaQC/vlc-yaru-dark/-/raw/master/VLC_video.gif"https://gitlab.com/NovaQC/vlc-yaru-dark/-/raw/master/VLC_video.gif")" caption="Image from NovaQC on gitlab"  src-l="[https://gitlab.com/NovaQC/vlc-yaru-dark/-/raw/master/VLC_video.gif](https://gitlab.com/NovaQC/vlc-yaru-dark/-/raw/master/VLC_video.gif "https://gitlab.com/NovaQC/vlc-yaru-dark/-/raw/master/VLC_video.gif")" linked=true  >}}
 
 [Download Theme](https://gitlab.com/NovaQC/vlc-yaru-dark/-/raw/master/YaruDark.vlt)
 
@@ -194,6 +194,6 @@ To enable the theme just open VLC and go to:
 
 Preferences > Interface and click the radial button that says "Use Custom Skin".
 
-{{< image src="//images/screenshot-vlc-skin-prefs.png" caption="VLC Skin Preferences"  src-l="/images/screenshot-vlc-skin-prefs.png" linked=true  >}}
+{{< image src="/images/screenshot-vlc-skin-prefs.png" caption="VLC Skin Preferences"  src-l="/images/screenshot-vlc-skin-prefs.png" linked=true  >}}
 
 Then restart VLC and the skin will be active.
