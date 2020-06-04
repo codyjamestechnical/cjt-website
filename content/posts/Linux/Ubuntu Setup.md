@@ -105,7 +105,7 @@ bash "/home/cody/Dropbox/Bash Scripts/clip" --open-in-browser
 
 ***
 
-### Setup Resilio Sync for notes and whatever else I want
+### Setup Resilio Sync & set permissions for the notes directory
 
 [Download The Deb](https://help.resilio.com/hc/en-us/articles/206178924)
 
