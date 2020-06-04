@@ -178,7 +178,7 @@ cp ~/Dropbox/Ubuntu\ Customizations/Custom\ Launcher\ Files ~/.local/share/appli
 
 ***
 
-#### Install Sushi
+### Install Sushi
 
 [View on  :(fab fa-github): GitHub](https://github.com/GNOME/sushi)
 
