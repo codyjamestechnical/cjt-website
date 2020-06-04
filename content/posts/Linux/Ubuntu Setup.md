@@ -113,11 +113,11 @@ bash "/home/cody/Dropbox/Bash Scripts/clip" --open-in-browser
 
 ```shell
 sudo systemctl enable resilio-sync && \
-sudo usermod -aG cody rslsync && \
+sudo usermod -aG $USER rslsync && \
 sudo usermod -aG rslsync cody && \
-mkdir /home/cody/Notes && \
-sudo chown -R cody:rslsync /home/cody/Notes && \
-sudo chmod g+rw /home/cody/Notes
+mkdir /home/$USER/Notes && \
+sudo chown -R $USER:rslsync /home/$USER/Notes && \
+sudo chmod g+rw /home/$USER/Notes
 ```
 
 ###### Goto the web interface and setup Resilio sync:
