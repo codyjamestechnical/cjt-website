@@ -67,7 +67,7 @@ sudo systemctl start earlyoom
     sudo snap connect docker:account-control :account-control && \
     sudo snap connect docker:home :home && \
     snap disable docker && \
-    snap enable  docker && \
+    snap enable docker && \
     newgrp docker-snap
 ```
 
