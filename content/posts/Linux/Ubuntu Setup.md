@@ -27,8 +27,8 @@ lastmod: 2020-05-20T20:30:12.000+00:00
 * [Visual Studio Code (snap)](https://snapcraft.io/code)
 * [Spotify (snap)](https://snapcraft.io/spotify)
 * [Mailspring (snap)](https://snapcraft.io/mailspring)
-* [Enpass (deb)](https://www.enpass.io/support/kb/general/how-to-install-enpass-on-linux/)
 * [Docker (snap)](https://snapcraft.io/docker)
+* [Enpass (deb)](https://www.enpass.io/support/kb/general/how-to-install-enpass-on-linux/)
 * [Kitematic (deb)](https://github.com/docker/kitematic/releases)
 * [Private Internet Access (deb)](https://www.privateinternetaccess.com/pages/download)
 
