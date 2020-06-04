@@ -186,7 +186,7 @@ sudo apt install gnome-sushi
 
 This theme makes VLC look like a native app.
 
-{{< image src="https://gitlab.com/NovaQC/vlc-yaru-dark/-/raw/master/VLC_video.gif](https://gitlab.com/NovaQC/vlc-yaru-dark/-/raw/master/VLC_video.gif" caption="Image from NovaQC on gitlab"  src-l="https://gitlab.com/NovaQC/vlc-yaru-dark/-/raw/master/VLC_video.gif](https://gitlab.com/NovaQC/vlc-yaru-dark/-/raw/master/VLC_video.gif")" linked=true  >}}
+{{< image src="https://gitlab.com/NovaQC/vlc-yaru-dark/-/raw/master/VLC_video.gif" caption="Image from NovaQC on gitlab"  src-l="https://gitlab.com/NovaQC/vlc-yaru-dark/-/raw/master/VLC_video.gif" linked=true  >}}
 
 [Download Theme](https://gitlab.com/NovaQC/vlc-yaru-dark/-/raw/master/YaruDark.vlt)
 
