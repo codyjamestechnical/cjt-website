@@ -172,7 +172,7 @@ Select the Ursine Umbra theme from the "Themes" menu.
 
 ### Setup the custom .desktop files for Nautilus and VS Code
 
-This allows you to have custom actions when you right click app icons in the GUI. I have set these up with my favorite locations, however when you open the files customizing them should be self explanatory.
+This allows you to have custom actions when you right click app icons in the GUI. I have set these up with my favorite locations, however when you open the files customizing them should be self explanatory. The launcher files need to be placed in "\~/.local/shere/applications/".
 
 {{< image src="/images/screenshot-nautilus-context-menu.png" caption="Context Menu Example"  src-l="/images/screenshot-nautilus-context-menu.png" linked=true  >}}
 
