@@ -190,8 +190,10 @@ This theme makes VLC look like a native app.
 
 [Download Theme](https://gitlab.com/NovaQC/vlc-yaru-dark/-/raw/master/YaruDark.vlt)
 
-To enable the theme just open VLC and go to 
+To enable the theme just open VLC and go to:
 
 Preferences > Interface and click the radial button that says "Use Custom Skin".
 
 {{< image src="//images/screenshot-vlc-skin-prefs.png" caption="VLC Skin Preferences"  src-l="/images/screenshot-vlc-skin-prefs.png" linked=true  >}}
+
+Then restart VLC and the skin will be active.
