@@ -19,7 +19,10 @@ lastmod: 2020-05-20T20:30:12.000+00:00
 
 {{< admonition type=info title="Download Referenced Files" open=true >}} [Click here to download the files referenced in this article from my Dropbox ](https://www.dropbox.com/sh/11olmidp2oyvjz4/AACtmBchqIfxx9MhAjlErJawa?dl=0){{< /admonition >}}
 
+{{< admonition type=note title="File Paths" open=true >}} Note that with some of the commands you will have to change the path to the location that you saved the files. I put the path that I use with my username in it because the main purpose of this post is to make it easier for me to setup my systems in the furtue. However, I thought others might find it useful. {{< /admonition >}}
+
 ### Install Support for ExFat
+
 By default the linux kernal doesn't ship with support for ExFat. ExFat allows you do have files larger than 4GB on a drive and is supported by more systems than EXT or NTFS. I use ExFat on all of my USB drives for this reason.
 
 ```Shell
@@ -69,6 +72,7 @@ sudo systemctl start earlyoom
 ***
 
 ### Setup Dropbox clipboard sync
+
 I created a custom script to use Dropbox (or really any file sync service) as a clipboard sync system. It only supports text, but that's the main thing I need. I am planning on putting up instructions on how to set this up for MacOS, IOS, and Android soon. It makes a nice universal clipboard sync system.
 
 #### Install dependencies:
