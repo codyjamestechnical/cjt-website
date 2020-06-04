@@ -21,6 +21,19 @@ lastmod: 2020-05-20T20:30:12.000+00:00
 
 {{< admonition type=note title="File Paths" open=true >}} Note that with some of the commands you will have to change the path to the location that you saved the files. I put the path that I use with my username in it because the main purpose of this post is to make it easier for me to setup my systems in the furtue. However, I thought others might find it useful. {{< /admonition >}}
 
+### Install Applications
+
+* [Dropbox (deb)](https://www.dropbox.com/install-linux)
+* [Visual Studio Code (snap)](https://snapcraft.io/code)
+* [Spotify (snap)](https://snapcraft.io/spotify)
+* [Mailspring (snap)](https://snapcraft.io/mailspring)
+* [Enpass (deb)](https://www.enpass.io/support/kb/general/how-to-install-enpass-on-linux/)
+* [Docker (deb)](https://docs.docker.com/engine/install/)
+* [Kitematic (deb)](https://github.com/docker/kitematic/releases)
+* [Private Internet Access (deb)](https://www.privateinternetaccess.com/pages/download)
+
+***
+
 ### Install Support for ExFat
 
 By default the linux kernal doesn't ship with support for ExFat. The ExFat filesystem allows you do have files larger than 4GB on a drive and is supported by more systems than EXT or NTFS. I use ExFat on all of my USB drives for this reason.
@@ -42,19 +55,6 @@ sudo apt install earlyoom && \
 sudo systemctl enable earlyoom && \
 sudo systemctl start earlyoom
 ```
-
-***
-
-### Install Applications
-
-* [Dropbox (deb)](https://www.dropbox.com/install-linux)
-* [Visual Studio Code (snap)](https://snapcraft.io/code)
-* [Spotify (snap)](https://snapcraft.io/spotify)
-* [Mailspring (snap)](https://snapcraft.io/mailspring)
-* [Enpass (deb)](https://www.enpass.io/support/kb/general/how-to-install-enpass-on-linux/)
-* [Docker (deb)](https://docs.docker.com/engine/install/)
-* [Kitematic (deb)](https://github.com/docker/kitematic/releases)
-* [Private Internet Access (deb)](https://www.privateinternetaccess.com/pages/download)
 
 ***
 
