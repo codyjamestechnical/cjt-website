@@ -20,6 +20,7 @@ lastmod: 2020-05-20T20:30:12.000+00:00
 {{< admonition type=info title="Download Referenced Files" open=true >}} [Click here to download the files referenced in this article from my Dropbox ](https://www.dropbox.com/sh/11olmidp2oyvjz4/AACtmBchqIfxx9MhAjlErJawa?dl=0){{< /admonition >}}
 
 ### Install Support for ExFat
+By default the linux kernal doesn't ship with support for ExFat. ExFat allows you do have files larger than 4GB on a drive and is supported by more systems than EXT or NTFS. I use ExFat on all of my USB drives for this reason.
 
 ```Shell
 sudo apt install exfat-fuse exfat-utils
