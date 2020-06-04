@@ -109,7 +109,7 @@ bash "/home/cody/Dropbox/Bash Scripts/clip" --open-in-browser
 
 [Download The Deb](https://help.resilio.com/hc/en-us/articles/206178924)
 
-###### Then enable in Systemd and adjust permissions & groups for the Notes folder:
+###### Enable in Systemd and adjust permissions & groups for the Notes folder:
 
 ```shell
 sudo systemctl enable resilio-sync && \
@@ -120,9 +120,9 @@ sudo chown -R cody:rslsync /home/cody/Notes && \
 sudo chmod g+rw /home/cody/Notes
 ```
 
-###### Then goto the web interface and setup Resilio sync:
+###### Goto the web interface and setup Resilio sync:
 
-Remember to logout and back in before finishing setup!!
+Remember to logout of the DE and back in before finishing setup!!
 
 Don't forget to unlink the identity first, and link it to the unified identity.
 
