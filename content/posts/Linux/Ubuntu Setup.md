@@ -143,12 +143,12 @@ sudo apt-get install typora -y && \
 
 * General
   * On Launch: Open custom folder
-    * /home/cody/Notes
+    * ~/Notes
   * Save & Recover: "Auto Save" = true
 * Image
   * When Insert...
     * Copy image to custom folder
-    * /home/cody/Notes/images
+    * ~/Notes/images
     * Apply above rules to local images = true
     * Apply rules to online images = true
     * User relative path if possible = true
