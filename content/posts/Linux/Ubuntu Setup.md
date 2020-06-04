@@ -19,7 +19,7 @@ lastmod: 2020-05-20T20:30:12.000+00:00
 
 {{< admonition type=info title="Download Referenced Files" open=true >}} [Click here to download the files referenced in this article from my Dropbox ](https://www.dropbox.com/sh/11olmidp2oyvjz4/AACtmBchqIfxx9MhAjlErJawa?dl=0){{< /admonition >}}
 
-{{< admonition type=note title="File Paths" open=true >}} Note that with some of the commands you will have to change the path to the location that you saved the files. I put the path that I use with my username in it because the main purpose of this post is to make it easier for me to setup my systems in the furtue. However, I thought others might find it useful. {{< /admonition >}}
+{{< admonition type=note title="File Paths" open=true >}} Note that with some of the commands you will have to change the path to the location that you saved the files, although I did use "~/" and "$USER" variable where possible. I put the path that I use with my username in it because the main purpose of this post is to make it easier for me to setup my systems in the furtue. However, I thought others might find it useful. {{< /admonition >}}
 
 ### Install Applications
 
