@@ -69,7 +69,7 @@ sudo systemctl start earlyoom
 ***
 
 ### Setup Dropbox clipboard sync
-I 
+I created a custom script to use Dropbox (or really any file sync service) as a clipboard sync system. It only supports text, but that's the main thing I need. I am planning on putting up instructions on how to set this up for MacOS, IOS, and Android soon. It makes a nice universal clipboard sync system.
 
 #### Install dependencies:
 
