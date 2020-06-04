@@ -19,7 +19,7 @@ lastmod: 2020-05-20T20:30:12.000+00:00
 
 {{< admonition type=info title="Download Referenced Files" open=true >}} [Click here to download the files referenced in this article from my Dropbox ](https://www.dropbox.com/sh/11olmidp2oyvjz4/AACtmBchqIfxx9MhAjlErJawa?dl=0){{< /admonition >}}
 
-{{< admonition type=note title="File Paths" open=true >}} Note that with some of the commands you will have to change the path to the location that you saved the files, although I did use "~/" and "$USER" variable where possible. I put the path that I use with my username in it because the main purpose of this post is to make it easier for me to setup my systems in the furtue. However, I thought others might find it useful. {{< /admonition >}}
+{{< admonition type=note title="File Paths" open=true >}} Note that with some of the commands you will have to change the path to the location that you saved the files, although I did use "\~/" and "$USER" variable where possible. I put the path that I use with my username in it because the main purpose of this post is to make it easier for me to setup my systems in the furtue. However, I thought others might find it useful. {{< /admonition >}}
 
 ### Install Applications
 
@@ -143,12 +143,12 @@ sudo apt-get install typora -y && \
 
 * General
   * On Launch: Open custom folder
-    * ~/Notes
+    * \~/Notes
   * Save & Recover: "Auto Save" = true
 * Image
   * When Insert...
     * Copy image to custom folder
-    * ~/Notes/images
+    * \~/Notes/images
     * Apply above rules to local images = true
     * Apply rules to online images = true
     * User relative path if possible = true
@@ -171,6 +171,10 @@ Select the Ursine Umbra theme from the "Themes" menu.
 ***
 
 ### Setup the custom .desktop files for Nautilus and VS Code
+
+This allows you to have custom actions when you right click app icons in the GUI. I have set these up with my favorite locations, however when you open the files customizing them should be self explanatory.
+
+{{< image src="/images/screenshot-nautilus-context-menu.png" caption="Context Menu Example"  src-l="/images/screenshot-nautilus-context-menu.png" linked=true  >}}
 
 ```shell
 cp ~/Dropbox/Ubuntu\ Customizations/Custom\ Launcher\ Files ~/.local/share/applications/ 
