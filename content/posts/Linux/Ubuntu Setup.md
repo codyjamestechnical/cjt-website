@@ -126,7 +126,7 @@ Remember to logout of the DE and back in before finishing setup!!
 
 Don't forget to unlink the identity first, and link it to the unified identity.
 
-go to the [Web Gui](http://localhost:8888/gui/) to set it up
+Open the [Web Gui](http://localhost:8888/gui/) to finish Resilio sync setup.
 
 ***
 
