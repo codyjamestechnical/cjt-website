@@ -69,6 +69,7 @@ sudo systemctl start earlyoom
 ***
 
 ### Setup Dropbox clipboard sync
+I 
 
 #### Install dependencies:
 
@@ -123,7 +124,7 @@ go to the [Web Gui](http://localhost:8888/gui/) to set it up
 
 ***
 
-#### Setup Typora for Notes
+### Setup Typora for Notes
 
 ```shell
 wget -qO - https://typora.io/linux/public-key.asc | sudo apt-key add - && \
@@ -163,7 +164,7 @@ Select the Ursine Umbra theme from the "Themes" menu.
 
 ***
 
-#### Setup the custom .desktop files for Nautilus and VS Code
+### Setup the custom .desktop files for Nautilus and VS Code
 
 ```shell
 cp ~/Dropbox/Ubuntu\ Customizations/Custom\ Launcher\ Files ~/.local/share/applications/ 
@@ -183,7 +184,7 @@ Sushi is a quick preview app for Nautilus. Similar to the quick preview in Mac O
 sudo apt install gnome-sushi
 ```
 
-#### Install Yaru Dark theme for VLC
+### Install Yaru Dark theme for VLC
 
 [View on :(fab fa-gitlab): GitLab](https://gitlab.com/NovaQC/vlc-yaru-dark/)
 
