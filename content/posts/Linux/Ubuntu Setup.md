@@ -28,7 +28,7 @@ lastmod: 2020-05-20T20:30:12.000+00:00
 * [Spotify (snap)](https://snapcraft.io/spotify)
 * [Mailspring (snap)](https://snapcraft.io/mailspring)
 * [Enpass (deb)](https://www.enpass.io/support/kb/general/how-to-install-enpass-on-linux/)
-* [Docker (deb)](https://docs.docker.com/engine/install/)
+* [Docker (snap)](https://snapcraft.io/docker)
 * [Kitematic (deb)](https://github.com/docker/kitematic/releases)
 * [Private Internet Access (deb)](https://www.privateinternetaccess.com/pages/download)
 
