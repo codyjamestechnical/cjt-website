@@ -174,7 +174,9 @@ cp ~/Dropbox/Ubuntu\ Customizations/Custom\ Launcher\ Files ~/.local/share/appli
 
 [View on  :(fab fa-github): GitHub](https://github.com/GNOME/sushi)
 
-Sushi is a quick preview app for Nautilus. Similar to the quick preview in Mac OS.
+Sushi is a quick preview app for Nautilus. Similar to the quick preview in Mac OS. You just hit the space-bar to preview a file.
+
+{{< image src="/images/screenshot-sushi.png" caption="Sushi in Action"  src-l="/images/screenshot-sushi.png" linked=true  >}}
 
 ```shell
 sudo apt install gnome-sushi
