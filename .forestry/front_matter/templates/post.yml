@@ -58,3 +58,5 @@ fields:
   type: boolean
   label: Hide From Homepage
   default: false
+pages:
+- content/posts/Projects/led-wall-sconce-with-esphome.md
